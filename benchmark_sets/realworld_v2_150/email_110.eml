@@ -1,0 +1,47 @@
+Subject: Record Verification Required
+From: notices@company.com
+To: emma.walker@company.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1177419089441769019=="
+
+--===============1177419089441769019==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Emma Walker.
+The packet includes one customer record and one operations note.
+Internal ticket: TK-445566
+Support mailbox: support@servicehub.com
+
+--===============1177419089441769019==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="review_packet_110.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIAA8zllzo3ppLegAAAIQAAAAOAAAAcmVjb3JkXzExMC50eHQdjDEOwjAMAHe/wiMM
+tEpFUpoJIWADVTAwm2JohFNLoRXi9wTW092duNN0w/MUI6UP7CcRPFJkj7tM8ELy5ARbGhn1jpuQ
+xt6jqcrKlaZxDlpOLx1Isk5BPHKuive/qtePHys6jXDQaxDGttchr2d2ZeZorV00rl7CF1BLAwQU
+AAAACAAPM5Zc6FBaOLkAAADjAAAAEAAAAG9wc19ub3RlXzExMC50eHQljsEOgjAQRO/9ij3qAULB
+guFk4kVjYoz6A6WssqG2ZFvUz7fEwxzeZmZ2zp7jAFfqnwgH1DYBBQjoenJP0A78hKwjeactzFOv
+I8LDM8QBExr/Wmwfz2OIjPqVizuZESMwPpDRGWzhfso2G6XqWtzmaUr/gFznvy2EP+4C8psMDnOX
+p0Kx19Z22oxgyaX4ats0a1BKZYUspbjim/ADy5AWyqKss6LKSiVufmaDcLws1yqXRS6rpEaKH1BL
+AQIUAxQAAAAIAA8zllzo3ppLegAAAIQAAAAOAAAAAAAAAAAAAACAAQAAAAByZWNvcmRfMTEwLnR4
+dFBLAQIUAxQAAAAIAA8zllzoUFo4uQAAAOMAAAAQAAAAAAAAAAAAAACAAaYAAABvcHNfbm90ZV8x
+MTAudHh0UEsFBgAAAAACAAIAegAAAI0BAAAAAA==
+
+--===============1177419089441769019==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_510.txt"
+MIME-Version: 1.0
+
+Tm9ydGggUmlkZ2UgSGVhbHRoIGlzIHNlbmRpbmcgYW4gb3BlcmF0aW9uYWwgdXBkYXRlIGZvciB0
+aGUgdXBjb21pbmcgd29ya3N0cmVhbS4KVGlja2V0IHJlZmVyZW5jZTogT1JELTI4NDcyOTMKU3Vw
+cG9ydCBpbmJveDogc3VwcG9ydEBzZXJ2aWNlaHViLmNvbQpDYWxsYmFjayBsaW5lOiAoODc3KSA1
+NTUtMDEyMQpSZXZpZXcgZGF0ZTogMjAyNi0wNy0yNgpTb3VyY2UgSVA6IDIwMy4xMC4xMzAuMTcx
+CkRvY3VtZW50IG93bmVyOiBFdmVyZ3JlZW4gTG9naXN0aWNzCg==
+
+--===============1177419089441769019==--

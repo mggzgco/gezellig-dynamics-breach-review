@@ -1,0 +1,40 @@
+Subject: Record Verification Required
+From: notices@company.com
+To: charlotte.martinez@company.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4717822462317931337=="
+
+--===============4717822462317931337==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Charlotte Martinez.
+The packet includes one customer record and one operations note.
+Internal ticket: FX987654321
+Support mailbox: support@servicehub.com
+
+--===============4717822462317931337==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_105.txt"
+MIME-Version: 1.0
+
+UmVjb3JkIFN1bW1hcnkKRnVsbCBOYW1lOiBDaGFybG90dGUgTWFydGluZXoKTG9naW4gSVAgQWRk
+cmVzczogMTYuMjI5LjUxLjEzMQpQZXJzb25hbCBFbWFpbDogY2hhcmxvdHRlLm1hcnRpbmV6MkBn
+bWFpbC5jb20K
+
+--===============4717822462317931337==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_505.txt"
+MIME-Version: 1.0
+
+UGlvbmVlciBGaW5hbmNpYWwgaXMgc2VuZGluZyBhbiBvcGVyYXRpb25hbCB1cGRhdGUgZm9yIHRo
+ZSB1cGNvbWluZyB3b3Jrc3RyZWFtLgpUaWNrZXQgcmVmZXJlbmNlOiBDTE0tNTU2Nzg5ClN1cHBv
+cnQgaW5ib3g6IHN1cHBvcnRAc2VydmljZWh1Yi5jb20KQ2FsbGJhY2sgbGluZTogKDg4OCkgNTU1
+LTAxNDgKUmV2aWV3IGRhdGU6IDIwMjYtMDItMjEKU291cmNlIElQOiAyMDMuNS4xMTUuMTM2CkRv
+Y3VtZW50IG93bmVyOiBCcmlnaHRsaW5lIEVkdWNhdGlvbgo=
+
+--===============4717822462317931337==--

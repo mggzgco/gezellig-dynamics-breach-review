@@ -1,0 +1,18 @@
+Subject: Suspicious Login Validation
+From: notices@company.com
+To: jack.foster@company.com
+Content-Type: multipart/alternative;
+ boundary="===============5883163007273168697=="
+
+--===============5883163007273168697==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Security operations,</p><p>We detected a portal sign-in associ=
+ated with jack.foster2@gmail.com.</p><p>Security mailbox: support@servicehub.=
+com</p><p>Case reference: REQ-992814</p><p>User profile snapshot:</p><p>Full =
+Name: Jack Foster</p><p>Login IP Address: 39.30.160.32</p><p>Personal Email: =
+jack.foster2@gmail.com</p><p>Mobile Phone: (282) 555-5110</p></body></html>
+
+--===============5883163007273168697==--

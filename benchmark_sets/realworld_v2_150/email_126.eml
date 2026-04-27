@@ -1,0 +1,38 @@
+Subject: Record Verification Required
+From: notices@healthsystem.org
+To: amelia.hughes@healthsystem.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3745329542400766984=="
+
+--===============3745329542400766984==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Amelia Hughes.
+The packet includes one customer record and one operations note.
+Internal ticket: ORD-2847293
+Support mailbox: helpdesk@company.com
+
+--===============3745329542400766984==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_126.txt"
+MIME-Version: 1.0
+
+UmVjb3JkIFN1bW1hcnkKRnVsbCBOYW1lOiBBbWVsaWEgSHVnaGVzCkRhdGUgb2YgQmlydGg6IDA1
+LzAzLzE5NjYKUGVyc29uYWwgRW1haWw6IGFtZWxpYS5odWdoZXMyQHlhaG9vLmNvbQpNb2JpbGUg
+UGhvbmU6ICgyNzkpIDU1NS05NDQwCg==
+
+--===============3745329542400766984==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_526.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpSRVEtOTkyODE0LFN1
+bW1pdCBMZWdhbCBHcm91cCxoZWxwZGVza0Bjb21wYW55LmNvbSwyMDI2LTA1LTE1LDIwMy4yNi4x
+MC4yNA0K
+
+--===============3745329542400766984==--

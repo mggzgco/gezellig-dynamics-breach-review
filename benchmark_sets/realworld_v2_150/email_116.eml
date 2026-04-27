@@ -1,0 +1,38 @@
+Subject: Patient Intake Packet Review
+From: notices@healthsystem.org
+To: james.nguyen@healthsystem.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3353099262683031139=="
+
+--===============3353099262683031139==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for James Nguyen.
+The packet includes one customer record and one operations note.
+Internal ticket: TK-445566
+Support mailbox: helpdesk@company.com
+
+--===============3353099262683031139==
+Content-Type: text/rtf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_116.rtf"
+MIME-Version: 1.0
+
+e1xydGYxXGFuc2kgQXR0YWNoZWQgUmVjb3JkXHBhciBGdWxsIE5hbWU6IEphbWVzIE5ndXllblxw
+YXIgRGlhZ25vc2lzIENvZGU6IEo0NS45MDlccGFyIE5EQzogMDA1OTctMDA4Ny0xN1xwYXIgRGF0
+ZSBvZiBCaXJ0aDogMTIvMTYvMTk4NH0=
+
+--===============3353099262683031139==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_516.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpPUkQtMjg0NzI5MyxT
+dW1taXQgTGVnYWwgR3JvdXAsaGVscGRlc2tAY29tcGFueS5jb20sMjAyNi0wNC0xNSwyMDMuMTYu
+MTAuMjQNCg==
+
+--===============3353099262683031139==--

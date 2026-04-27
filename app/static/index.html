@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezellig Dynamics Breach Review</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/app.css">
+
+</head>
+<body>
+    <div class="app-shell" id="appShell">
+        <aside class="sidebar">
+            <div class="brand-block">
+                <div class="brand-row">
+                    <div class="brand-assets">
+                        <img class="brand-mark" src="/static/brand/gezellig-dynamics-mark.svg" alt="Gezellig Dynamics">
+                        <img class="brand-wordmark" src="/static/brand/gezellig-dynamics-wordmark.svg" alt="Gezellig Dynamics">
+                    </div>
+                    <button class="sidebar-toggle" type="button" onclick="toggleSidebar()" aria-label="Toggle sidebar">☰</button>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <button class="nav-item active" id="navLanding" type="button" onclick="setView('landing')">
+                    <span class="nav-icon">⌂</span>
+                    <span class="nav-text">Overview</span>
+                </button>
+                <button class="nav-item" id="navReview" type="button" onclick="setView('review')">
+                    <span class="nav-icon">▣</span>
+                    <span class="nav-text">Review workspace</span>
+                </button>
+                <button class="nav-item" id="navRuns" type="button" onclick="setView('runs')">
+                    <span class="nav-icon">☰</span>
+                    <span class="nav-text">Saved runs</span>
+                </button>
+            </nav>
+
+        </aside>
+
+        <main class="main-shell">
+            <header class="topbar">
+                <div class="topbar-copy">
+                    <span class="caps">Gezellig Dynamics</span>
+                    <strong id="pageHeading">Breach review workspace</strong>
+                </div>
+                <div class="topbar-actions">
+                    <button class="status-pill warn" id="topStatusPill" type="button" onclick="openStartupWizard(true)" aria-label="Open startup wizard and setup status">
+                        <span>●</span>
+                        <span id="topStatusText">Checking local setup</span>
+                    </button>
+                </div>
+            </header>
+
+            <div class="error-panel" id="errorPanel">
+                <strong>Error:</strong> <span id="errorMessage"></span>
+            </div>
+
+            <section class="page active" id="pageLanding">
+                <div class="page-grid">
+                    <div class="hero-grid">
+                        <div class="card hero-card">
+                            <div class="card-inner hero-copy">
+                                <span class="eyebrow-pill">Gezellig Dynamics breach review</span>
+                                <h1>Breach review, without the noise.</h1>
+                                <p>Open exported email evidence, process attachments and scans, and move straight into structured outputs for privacy, legal, and response teams.</p>
+                                <div class="actions" style="margin-top: 22px;">
+                                    <button class="btn-primary" type="button" onclick="setView('review')">Open review workspace</button>
+                                    <button class="btn-secondary" type="button" onclick="openStartupWizard(true)">Startup readiness</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <span class="caps">Intake</span>
+                            <h3>Process the evidence you actually get.</h3>
+                            <p>Review exported `.eml` batches with attachments, archives, screenshots, and scanned records in one workspace.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="caps">Review</span>
+                            <h3>Keep the run state visible.</h3>
+                            <p>The workspace changes with the job so live activity, completion, and outputs stay in front of the user.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="caps">Exports</span>
+                            <h3>Hand off the result cleanly.</h3>
+                            <p>Generate structured HTML, analyst CSV, and AI QA CSV outputs for downstream privacy and incident response teams.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="caps">History</span>
+                            <h3>Keep prior runs available.</h3>
+                            <p>Open completed reviews again, compare outputs, or remove old runs from the saved history page.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page" id="pageReview">
+                <div class="review-shell">
+                    <section class="card workspace-gate" id="workspaceGate">
+                        <div class="card-inner workspace-gate-shell">
+                            <div class="workspace-gate-copy">
+                                <span class="caps">Setup required</span>
+                                <h3 id="workspaceGateTitle">Checking system readiness</h3>
+                                <p id="workspaceGateText">The workspace will unlock once local runtime, OCR support, and AI integration checks are confirmed.</p>
+                            </div>
+                            <div class="actions" id="workspaceGateActions"></div>
+                        </div>
+                    </section>
+
+                    <section class="card progress-panel run-status-card" id="progressPanel">
+                        <div class="card-inner run-status-shell">
+                            <div class="run-status-head">
+                                <div class="run-status-copy">
+                                    <span class="caps">Active run</span>
+                                    <h2>Analysis in progress</h2>
+                                    <p id="statusText">Preparing upload payload.</p>
+                                </div>
+                                <div class="toolbar-group">
+                                    <button class="btn-secondary" type="button" onclick="resetExperience()">Reset view</button>
+                                </div>
+                            </div>
+
+                            <div class="metric-grid">
+                                <div class="metric">
+                                    <span class="metric-label">Processed</span>
+                                    <strong><span id="processedCount">0</span>/<span id="totalCount">0</span></strong>
+                                    <small>Messages completed so far.</small>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Affected records</span>
+                                    <strong id="personCount">0</strong>
+                                    <small>Resolved records as the run advances.</small>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Job status</span>
+                                    <strong id="jobStatus">Queued</strong>
+                                    <small id="jobPhase">Waiting for scanner output.</small>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Current file</span>
+                                    <strong id="currentFile">—</strong>
+                                    <small>Actively processing now.</small>
+                                </div>
+                            </div>
+
+                            <div class="progress-rail">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+
+                            <div class="run-summary-row">
+                                <span id="progressLabel">Waiting for server events.</span>
+                                <strong id="progressPercent">0%</strong>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="results-panel" id="resultsPanel">
+                        <div class="stack">
+                            <div class="card">
+                                <div class="card-inner">
+                                    <div class="summary-head">
+                                        <div>
+                                            <span class="caps">Completed review</span>
+                                            <h2>Analysis complete</h2>
+                                            <p>Use the quick table first, then open the embedded HTML report when you need full source-level detail.</p>
+                                        </div>
+                                        <div class="toolbar-group">
+                                            <button class="btn-secondary" type="button" onclick="resetExperience()">Start new review</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="metric-grid">
+                                        <div class="metric">
+                                            <span class="metric-label">Files processed</span>
+                                            <strong id="resultFileCount">0</strong>
+                                            <small>Total uploaded messages scanned.</small>
+                                        </div>
+                                        <div class="metric">
+                                            <span class="metric-label">Affected records</span>
+                                            <strong id="totalPersonsResult">0</strong>
+                                            <small>Records with detected exposure.</small>
+                                        </div>
+                                        <div class="metric high">
+                                            <span class="metric-label">Critical / high</span>
+                                            <strong id="highRiskResult">0</strong>
+                                            <small>Immediate priority cases.</small>
+                                        </div>
+                                        <div class="metric medium">
+                                            <span class="metric-label">Medium risk</span>
+                                            <strong id="mediumRiskResult">0</strong>
+                                            <small>Meaningful but lower composite severity.</small>
+                                        </div>
+                                        <div class="metric notify">
+                                            <span class="metric-label">Notification required</span>
+                                            <strong id="notificationResult">0</strong>
+                                            <small>Records with triggered notification flags.</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="toolbar" style="margin-top: 14px;">
+                                        <div class="toolbar-group">
+                                            <button class="btn-primary" type="button" onclick="downloadHTML()">Download HTML report</button>
+                                            <button class="btn-tertiary" type="button" onclick="downloadCSV()">Download CSV export</button>
+                                            <button class="btn-tertiary" id="fileReviewBtn" type="button" onclick="downloadFileReviewCSV()">Download AI QA CSV</button>
+                                        </div>
+                                        <div class="toolbar-group">
+                                            <button class="btn-secondary" type="button" onclick="toggleHtmlReport()">Toggle embedded report</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="footer-note" id="resultRunMeta"></div>
+                                </div>
+                            </div>
+
+                            <div class="card" id="quickReviewPanel">
+                                <div class="card-inner">
+                                    <div class="section-head">
+                                        <div>
+                                            <span class="caps">Quick review</span>
+                                            <h2>Resolved records</h2>
+                                        </div>
+                                        <p>Compact summary table for immediate triage.</p>
+                                    </div>
+                                    <table class="mini-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Name / Email</th>
+                                                <th>Entity</th>
+                                                <th>Risk</th>
+                                                <th>PII Matches</th>
+                                                <th>Attribution</th>
+                                                <th>Score</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="resultsBody"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <section class="report-shell" id="htmlReportContainer" style="display: none;">
+                                <div class="report-bar">
+                                    <div>
+                                        <h3>Embedded HTML report</h3>
+                                        <div class="footer-note" style="margin-top: 4px;">Generated report rendered directly in the workspace.</div>
+                                    </div>
+                                    <div class="toolbar-group">
+                                        <button class="btn-secondary" type="button" onclick="downloadHTML()">Open standalone</button>
+                                    </div>
+                                </div>
+                                <iframe id="htmlReportIframe" class="report-frame" title="PII breach report"></iframe>
+                            </section>
+                        </div>
+                    </section>
+
+                    <div class="card review-intake" id="reviewIntake">
+                        <div class="card-inner review-intake-card">
+                            <div class="intake-head">
+                                <div class="intake-head-copy">
+                                    <span class="caps">Review workspace</span>
+                                    <h2>Start a new analysis</h2>
+                                    <p>Upload only `.eml` files. Mixed unsupported batches are rejected instead of silently skipping anything from the run.</p>
+                                </div>
+                                <div class="actions">
+                                    <button class="btn-primary" id="submitBtn" type="button" onclick="submitFiles()" disabled>Run breach analysis</button>
+                                    <button class="btn-secondary" type="button" onclick="clearFiles()">Clear</button>
+                                </div>
+                            </div>
+
+                            <div class="upload-zone" id="uploadZone">
+                                <input type="file" id="fileInput" multiple accept=".eml">
+                                <strong id="uploadZoneTitle">Drop `.eml` files here</strong>
+                                <div class="helper-copy" id="uploadZoneText">or click to browse exported email evidence from disk</div>
+                            </div>
+
+                            <div class="upload-feedback" id="uploadFeedback" aria-live="polite">
+                                <div class="upload-feedback-copy">
+                                    <strong><span class="upload-check">✓</span><span id="uploadFeedbackTitle">Files accepted for review</span></strong>
+                                    <span id="uploadFeedbackText">The workspace is ready to start analysis.</span>
+                                </div>
+                                <span class="upload-feedback-meta" id="uploadFeedbackMeta">0 files</span>
+                            </div>
+
+                            <div class="fact-strip">
+                                <div class="fact-item">
+                                    <span>Best input</span>
+                                    <strong>Native `.eml` exports</strong>
+                                </div>
+                                <div class="fact-item">
+                                    <span>Extraction</span>
+                                    <strong>PDF, DOCX, XLSX, images, ZIP, MSG</strong>
+                                </div>
+                                <div class="fact-item">
+                                    <span>Outputs</span>
+                                    <strong>HTML report, analyst CSV, AI QA CSV</strong>
+                                </div>
+                            </div>
+
+                            <div class="file-list" id="fileList">
+                                <details class="file-details" id="fileDetails">
+                                    <summary class="file-list-head">
+                                        <strong>Selected files</strong>
+                                        <span class="selected-summary" id="selectedSummary">0 files selected</span>
+                                    </summary>
+                                    <div class="file-items" id="fileItems"></div>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="page" id="pageRuns">
+                <div class="page-grid">
+                    <section class="card run-history-card">
+                        <div class="card-inner">
+                            <div class="run-history-head">
+                                <div>
+                                    <span class="caps">Saved runs</span>
+                                    <h2 style="margin: 4px 0 0; font-family: var(--display-font); letter-spacing: -0.04em;">Review history</h2>
+                                </div>
+                                <div class="toolbar-group">
+                                    <button class="btn-secondary" type="button" onclick="setView('review')">Open review workspace</button>
+                                    <button class="btn-primary" type="button" onclick="startNewReview()">Start another run</button>
+                                </div>
+                            </div>
+                            <div class="run-history-empty" id="runHistoryEmpty">No runs saved yet. Completed and active jobs will appear here.</div>
+                            <div class="run-history-list" id="runHistoryList"></div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="wizard-modal" id="startupWizard" aria-hidden="true">
+        <div class="wizard-shell">
+            <div class="wizard-header">
+                <span class="caps">Startup wizard</span>
+                <h2>Finish local setup before you begin.</h2>
+                <p class="wizard-summary" id="wizardSummary">Checking the local runtime, OCR dependencies, and AI integration state.</p>
+            </div>
+            <div class="wizard-body">
+                <div class="wizard-main">
+                    <div class="step-list" id="wizardSteps"></div>
+                </div>
+                <aside class="wizard-side">
+                    <div class="wizard-note">
+                        <span class="caps">Current status</span>
+                        <div class="status-pill warn" id="wizardStatusPill">
+                            <span>●</span>
+                            <span id="wizardStatusLabel">Checking startup state</span>
+                        </div>
+                    </div>
+                    <div class="wizard-note">
+                        <span class="caps">Recommended next steps</span>
+                        <ul class="step-list" id="recommendedActions" style="padding-left: 18px; margin: 0; color: var(--ink-soft);"></ul>
+                    </div>
+                    <div class="wizard-note">
+                        <span class="caps">Background setup activity</span>
+                        <p class="helper-copy" id="pullStatus">No background setup activity has been started.</p>
+                        <ol class="action-log" id="pullLog"></ol>
+                    </div>
+                    <div class="modal-actions" id="wizardPrimaryActions"></div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <div class="activity-modal" id="activityModal" aria-live="polite" aria-hidden="true">
+        <div class="activity-dialog" role="status" aria-busy="true">
+            <div class="activity-indicator">
+                <span class="activity-spinner" aria-hidden="true"></span>
+                <span id="activityLabel">Working…</span>
+            </div>
+            <h3 id="activityTitle">Please wait</h3>
+            <p id="activityDetail">The system is processing your request.</p>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+Subject: Patient Intake Packet Review
+From: notices@healthsystem.org
+To: daniel.singh@healthsystem.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4452468379955713827=="
+
+--===============4452468379955713827==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Daniel Singh.
+The packet includes one customer record and one operations note.
+Internal ticket: REQ-992814
+Support mailbox: helpdesk@company.com
+
+--===============4452468379955713827==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_106.csv"
+MIME-Version: 1.0
+
+RnVsbCBOYW1lLE1lZGljYXJlIE51bWJlcixEYXRlIG9mIEJpcnRoLEhvbWUgQWRkcmVzcw0KRGFu
+aWVsIFNpbmdoLDdQTTFYTjRFRjQwLDA4LzA4LzE5NTQsIjUwMjIgTWVhZG93IFJkLCBQaG9lbml4
+LCBBWiA4NTAxNiINCg==
+
+--===============4452468379955713827==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_506.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpUSy00NDU1NjYsU3Vt
+bWl0IExlZ2FsIEdyb3VwLGhlbHBkZXNrQGNvbXBhbnkuY29tLDIwMjYtMDMtMTUsMjAzLjYuMTAu
+MjQNCg==
+
+--===============4452468379955713827==--

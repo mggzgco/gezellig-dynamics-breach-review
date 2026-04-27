@@ -1,0 +1,18 @@
+Subject: Suspicious Login Validation
+From: notices@company.com
+To: emma.walker@company.com
+Content-Type: multipart/alternative;
+ boundary="===============3436143728830506602=="
+
+--===============3436143728830506602==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Security operations,</p><p>We detected a portal sign-in associ=
+ated with emma.walker4@gmail.com.</p><p>Security mailbox: support@servicehub.=
+com</p><p>Case reference: INC-420175</p><p>User profile snapshot:</p><p>Full =
+Name: Emma Walker</p><p>Login IP Address: 153.178.168.245</p><p>Personal Emai=
+l: emma.walker4@gmail.com</p><p>Mobile Phone: (379) 555-8249</p></body></html>
+
+--===============3436143728830506602==--

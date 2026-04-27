@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezellig Dynamics Breach Review Report</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --display-font: 'Sora', 'Manrope', sans-serif;
+            --body-font: 'Manrope', sans-serif;
+            --ink: #0f1720;
+            --ink-soft: #5e6a75;
+            --paper: #f4f8f7;
+            --panel: rgba(255, 255, 255, 0.9);
+            --line: rgba(22, 50, 79, 0.12);
+            --accent: #1e8a7a;
+            --accent-soft: rgba(45, 181, 160, 0.14);
+            --critical: #b42318;
+            --high: #dd6b20;
+            --medium: #d6a11b;
+            --low: #1e8a7a;
+            --shadow: 0 28px 60px rgba(15, 23, 32, 0.1);
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: var(--body-font);
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top left, rgba(45, 181, 160, 0.14), transparent 34%),
+                linear-gradient(180deg, #f8fbfa 0%, #f1f7f6 100%);
+        }
+
+        .shell {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 32px 28px 72px;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #fbfefd 0%, #eef7f5 45%, #f7fbfa 100%);
+            border: 1px solid rgba(22, 50, 79, 0.08);
+            border-radius: 28px;
+            box-shadow: var(--shadow);
+            padding: 34px 34px 30px;
+            margin-bottom: 26px;
+        }
+
+        .brandbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 18px;
+        }
+
+        .brand-logo {
+            width: clamp(220px, 28vw, 320px);
+            max-width: 100%;
+            display: block;
+        }
+
+        .brand-logo svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .brand-meta {
+            display: grid;
+            gap: 4px;
+            text-align: right;
+            color: var(--ink-soft);
+            font-size: 13px;
+        }
+
+        .brand-meta strong {
+            color: var(--ink);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: auto -10% -20% auto;
+            width: 320px;
+            height: 320px;
+            border-radius: 999px;
+            background: radial-gradient(circle, rgba(45, 181, 160, 0.18), transparent 68%);
+            pointer-events: none;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: rgba(22, 50, 79, 0.07);
+            color: var(--ink);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            margin: 18px 0 10px;
+            font-family: var(--display-font);
+            font-size: clamp(34px, 4vw, 56px);
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            max-width: 900px;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 760px;
+            color: var(--ink-soft);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 2.2fr 1fr;
+            gap: 24px;
+            margin-top: 28px;
+        }
+
+        .meta-card,
+        .reg-card,
+        .panel {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            box-shadow: 0 16px 32px rgba(22, 50, 79, 0.08);
+            backdrop-filter: blur(6px);
+        }
+
+        .meta-card {
+            padding: 22px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .meta-item span,
+        .section-kicker {
+            display: block;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-soft);
+            margin-bottom: 8px;
+        }
+
+        .meta-item strong {
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .reg-card {
+            padding: 22px;
+        }
+
+        .reg-card h2,
+        .section-head h2 {
+            margin: 0 0 8px;
+            font-family: var(--display-font);
+            font-size: 24px;
+            letter-spacing: -0.03em;
+        }
+
+        .reg-grid,
+        .summary-grid,
+        .distribution-grid {
+            display: grid;
+            gap: 14px;
+        }
+
+        .reg-grid { margin-top: 18px; }
+        .summary-grid {
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+            margin-bottom: 26px;
+        }
+        .distribution-grid {
+            grid-template-columns: 1.4fr 1fr;
+            margin-bottom: 26px;
+        }
+
+        .summary-card,
+        .reg-stat,
+        .distribution-card,
+        .source-table,
+        .person-card,
+        .method-card {
+            padding: 20px;
+        }
+
+        .summary-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            box-shadow: 0 16px 28px rgba(22, 50, 79, 0.06);
+        }
+
+        .summary-card .value {
+            font-family: var(--display-font);
+            font-size: 34px;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .summary-card .label,
+        .reg-stat .label {
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-soft);
+        }
+
+        .summary-card .note {
+            color: var(--ink-soft);
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .summary-card.critical .value { color: var(--critical); }
+        .summary-card.high .value { color: var(--high); }
+        .summary-card.medium .value { color: var(--medium); }
+        .summary-card.low .value { color: var(--low); }
+
+        .reg-stat {
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(247, 242, 234, 0.94));
+        }
+
+        .reg-stat strong {
+            display: block;
+            font-size: 28px;
+            font-family: var(--display-font);
+            margin: 6px 0;
+        }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 20px;
+            margin: 0 0 16px;
+        }
+
+        .section-head p {
+            margin: 0;
+            max-width: 620px;
+            color: var(--ink-soft);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .distribution-card,
+        .source-table,
+        .person-card,
+        .method-card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            box-shadow: 0 16px 28px rgba(22, 50, 79, 0.06);
+        }
+
+        .pill-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: rgba(22, 50, 79, 0.06);
+            color: var(--ink);
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .pill .count {
+            display: inline-flex;
+            min-width: 24px;
+            justify-content: center;
+            padding: 2px 8px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-size: 12px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 14px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--line);
+            vertical-align: top;
+        }
+
+        th {
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-soft);
+        }
+
+        tbody tr:last-child td { border-bottom: none; }
+
+        .status-badge,
+        .risk-badge,
+        .type-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .status-clear { background: rgba(47, 133, 90, 0.12); color: var(--low); }
+        .status-findings { background: rgba(221, 107, 32, 0.12); color: var(--high); }
+        .status-error { background: rgba(180, 35, 24, 0.12); color: var(--critical); }
+        .risk-critical { background: rgba(180, 35, 24, 0.12); color: var(--critical); }
+        .risk-high { background: rgba(221, 107, 32, 0.12); color: var(--high); }
+        .risk-medium { background: rgba(214, 161, 27, 0.16); color: #8f6b00; }
+        .risk-low { background: rgba(47, 133, 90, 0.12); color: var(--low); }
+        .type-badge { background: rgba(45, 181, 160, 0.12); color: var(--accent); }
+
+        .people-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .person-card {
+            padding: 24px;
+        }
+
+        .person-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 18px;
+            margin-bottom: 16px;
+        }
+
+        .person-head h3 {
+            margin: 0 0 6px;
+            font-size: 24px;
+            font-family: var(--display-font);
+            letter-spacing: -0.03em;
+        }
+
+        .person-head p {
+            margin: 0;
+            color: var(--ink-soft);
+            font-size: 14px;
+        }
+
+        .micro-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .micro {
+            min-width: 120px;
+            padding: 12px 14px;
+            border-radius: 16px;
+            background: rgba(22, 50, 79, 0.05);
+        }
+
+        .micro span {
+            display: block;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-soft);
+            margin-bottom: 4px;
+        }
+
+        .micro strong {
+            font-size: 20px;
+            font-family: var(--display-font);
+        }
+
+        .finding-grid {
+            display: grid;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .finding {
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.92);
+        }
+
+        .finding-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 16px;
+            margin-bottom: 8px;
+        }
+
+        .finding strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .finding small,
+        .finding p {
+            color: var(--ink-soft);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .finding .excerpt {
+            margin-top: 10px;
+            padding: 12px 14px;
+            border-radius: 14px;
+            background: rgba(22, 50, 79, 0.05);
+            color: var(--ink);
+            font-size: 13px;
+        }
+
+        .method-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .method-card h3 {
+            margin: 0 0 12px;
+            font-size: 18px;
+            font-family: var(--display-font);
+        }
+
+        .method-card ul {
+            margin: 0;
+            padding-left: 18px;
+            color: var(--ink-soft);
+            line-height: 1.8;
+            font-size: 14px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px 6px 0;
+            color: var(--ink-soft);
+            font-size: 12px;
+        }
+
+        @media (max-width: 1080px) {
+            .brandbar,
+            .hero-grid,
+            .distribution-grid,
+            .method-grid,
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .shell { padding: 18px 14px 42px; }
+            .hero,
+            .summary-card,
+            .distribution-card,
+            .source-table,
+            .person-card,
+            .method-card { border-radius: 18px; }
+            .hero { padding: 24px; }
+            .hero h1 { font-size: 34px; }
+            .meta-card { grid-template-columns: 1fr; }
+            .brandbar,
+            .section-head,
+            .person-head,
+            footer { flex-direction: column; align-items: stretch; }
+            .brand-meta { text-align: left; }
+        }
+
+        @media print {
+            body { background: white; }
+            .shell { max-width: none; padding: 0; }
+            .hero,
+            .summary-card,
+            .distribution-card,
+            .source-table,
+            .person-card,
+            .method-card,
+            .meta-card,
+            .reg-card { box-shadow: none; backdrop-filter: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <section class="hero">
+            <div class="brandbar">
+                <div class="brand-logo" aria-label="Gezellig Dynamics">
+                    {{ brand_wordmark_svg }}
+                </div>
+                <div class="brand-meta">
+                    <strong>Gezellig Dynamics product</strong>
+                    <div>Confidential breach review platform</div>
+                </div>
+            </div>
+            <div class="eyebrow">Gezellig Dynamics breach review</div>
+            <h1>PII exposure report for email and attachment review.</h1>
+            <p>This report summarizes detected personal information across uploaded email files, including subject lines, message bodies, attachment filenames, and extracted attachment text. Findings are confidence-scored, deduplicated, and grouped for compliance review.</p>
+            <div class="hero-grid">
+                <div class="meta-card">
+                    <div class="meta-item">
+                        <span>Report ID</span>
+                        <strong>{{ job_id }}</strong>
+                    </div>
+                    <div class="meta-item">
+                        <span>Generated</span>
+                        <strong>{{ timestamp }}</strong>
+                    </div>
+                    <div class="meta-item">
+                        <span>Email Files Reviewed</span>
+                        <strong>{{ total_files }}</strong>
+                    </div>
+                    <div class="meta-item">
+                        <span>Attachments Processed</span>
+                        <strong>{{ total_attachments }}</strong>
+                    </div>
+                    <div class="meta-item">
+                        <span>Analyzer Build</span>
+                        <strong>{{ build_label }}</strong>
+                    </div>
+                    <div class="meta-item">
+                        <span>Report Schemas</span>
+                        <strong>HTML {{ html_report_schema_version }} · CSV {{ csv_report_schema_version }} · QA {{ file_review_schema_version }}</strong>
+                    </div>
+                </div>
+                <div class="reg-card">
+                    <div class="section-kicker">Regulatory Signals</div>
+                    <h2>Notification impact</h2>
+                    <div class="reg-grid">
+                        <div class="reg-stat">
+                            <div class="label">HIPAA</div>
+                            <strong>{{ hipaa_count }}</strong>
+                            <div>affected records</div>
+                        </div>
+                        <div class="reg-stat">
+                            <div class="label">CCPA</div>
+                            <strong>{{ ccpa_count }}</strong>
+                            <div>affected records</div>
+                        </div>
+                        <div class="reg-stat">
+                            <div class="label">PIPEDA</div>
+                            <strong>{{ pipeda_count }}</strong>
+                            <div>affected records</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="summary-grid">
+            <div class="summary-card">
+                <div class="value">{{ total_persons }}</div>
+                <div class="label">Affected Records</div>
+                <div class="note">Resolved from scanned messages and attached material.</div>
+            </div>
+            <div class="summary-card critical">
+                <div class="value">{{ total_high_critical }}</div>
+                <div class="label">Critical / High</div>
+                <div class="note">Records requiring immediate legal and operational review.</div>
+            </div>
+            <div class="summary-card medium">
+                <div class="value">{{ total_medium }}</div>
+                <div class="label">Medium Risk</div>
+                <div class="note">Records with meaningful exposure but lower composite severity.</div>
+            </div>
+            <div class="summary-card low">
+                <div class="value">{{ total_low }}</div>
+                <div class="label">Low Risk</div>
+                <div class="note">Lower-sensitivity identifiers or low-combination records.</div>
+            </div>
+            <div class="summary-card">
+                <div class="value">{{ total_notification }}</div>
+                <div class="label">Notification Required</div>
+                <div class="note">Records with triggered regulatory notification flags.</div>
+            </div>
+            <div class="summary-card">
+                <div class="value">{{ emails_with_findings }}</div>
+                <div class="label">Emails With Findings</div>
+                <div class="note">{{ processing_errors }} processing error{{ '' if processing_errors == 1 else 's' }} recorded.</div>
+            </div>
+        </section>
+
+        <section class="distribution-grid">
+            <div class="distribution-card">
+                <div class="section-head">
+                    <div>
+                        <div class="section-kicker">PII Types</div>
+                        <h2>Detected data elements</h2>
+                    </div>
+                    <p>Counts represent finding volume after confidence filtering and duplicate suppression.</p>
+                </div>
+                <div class="pill-cloud">
+                    {% for item in type_rows %}
+                    <div class="pill">{{ item.label }} <span class="count">{{ item.count }}</span></div>
+                    {% endfor %}
+                    {% if not type_rows %}
+                    <div class="pill">No PII detected <span class="count">0</span></div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="distribution-card">
+                <div class="section-head">
+                    <div>
+                        <div class="section-kicker">Categories</div>
+                        <h2>Exposure mix</h2>
+                    </div>
+                </div>
+                <div class="pill-cloud">
+                    {% for item in category_rows %}
+                    <div class="pill">{{ item.label }} <span class="count">{{ item.count }}</span></div>
+                    {% endfor %}
+                    {% if not category_rows %}
+                    <div class="pill">No categories <span class="count">0</span></div>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+
+        <section class="source-table panel">
+            <div class="section-head">
+                <div>
+                    <div class="section-kicker">Source Coverage</div>
+                    <h2>Email-level review status</h2>
+                </div>
+                <p>Every uploaded `.eml` file is listed with message subject, finding count, attachment count, and processing status.</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Subject</th>
+                        <th>Findings</th>
+                        <th>Attachments</th>
+                        <th>Status</th>
+                        <th>AI QA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in source_rows %}
+                    <tr>
+                        <td><strong>{{ row.eml_filename }}</strong></td>
+                        <td>{{ row.subject }}</td>
+                        <td>{{ row.pii_count }}</td>
+                        <td>{{ row.attachment_count }}</td>
+                        <td>
+                            <span class="status-badge {% if row.status == 'Clear' %}status-clear{% elif row.status == 'Findings' %}status-findings{% else %}status-error{% endif %}">{{ row.status }}</span>
+                            {% if row.error %}
+                            <div style="margin-top: 8px; color: var(--critical); font-size: 12px;">{{ row.error }}</div>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if row.qa_status == 'needs_review' %}
+                            <span class="status-badge status-error">Review · {{ row.qa_confidence_pct }}%</span>
+                            {% elif row.qa_status == 'clear' %}
+                            <span class="status-badge status-findings">Cleared · {{ row.qa_confidence_pct }}%</span>
+                            {% elif row.qa_status == 'error' %}
+                            <span class="status-badge status-error">QA Error</span>
+                            {% else %}
+                            <span class="status-badge status-clear">Not Run</span>
+                            {% endif %}
+                            {% if row.qa_reason %}
+                            <div style="margin-top: 8px; color: var(--ink-soft); font-size: 12px;">{{ row.qa_reason }}</div>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <section style="margin-top: 26px;">
+            <div class="section-head">
+                <div>
+                    <div class="section-kicker">Affected Records</div>
+                    <h2>Per-record detail</h2>
+                </div>
+                <p>Findings are grouped by resolved record, with composite risk, detection confidence, attribution confidence, source references, and redacted excerpts for analyst review.</p>
+            </div>
+            <div class="people-grid">
+                {% for row in person_rows %}
+                <article class="person-card">
+                    <div class="person-head">
+                        <div>
+                            <h3>{{ row.person.canonical_name or '(Unknown Record)' }}</h3>
+                            <p>{{ row.person.canonical_email or '(No canonical email)' }}</p>
+                            <p style="margin-top: 4px;">{{ row.person.entity_type.replace('_', ' ').title() }} · {{ row.person.attribution_methods | join(', ') }}</p>
+                        </div>
+                        <div class="risk-badge {% if row.person.highest_risk_level == 'CRITICAL' %}risk-critical{% elif row.person.highest_risk_level == 'HIGH' %}risk-high{% elif row.person.highest_risk_level == 'MEDIUM' %}risk-medium{% else %}risk-low{% endif %}">
+                            {{ row.person.highest_risk_level }}
+                        </div>
+                    </div>
+
+                    <div class="micro-stats">
+                        <div class="micro">
+                            <span>Risk Score</span>
+                            <strong>{{ "%.1f"|format(row.person.risk_score) }}</strong>
+                        </div>
+                        <div class="micro">
+                            <span>Matches</span>
+                            <strong>{{ row.match_count }}</strong>
+                        </div>
+                        <div class="micro">
+                            <span>Avg Confidence</span>
+                            <strong>{{ row.avg_confidence_pct }}%</strong>
+                        </div>
+                        <div class="micro">
+                            <span>Attribution</span>
+                            <strong>{{ row.attribution_confidence_pct }}%</strong>
+                        </div>
+                        <div class="micro">
+                            <span>Notify</span>
+                            <strong>{{ "Yes" if row.person.notification_required else "No" }}</strong>
+                        </div>
+                    </div>
+
+                    <div class="pill-cloud">
+                        {% for item in row.types %}
+                        <span class="type-badge">{{ item.label }}</span>
+                        {% endfor %}
+                        {% if row.person.regulations_triggered.HIPAA %}<span class="type-badge">HIPAA</span>{% endif %}
+                        {% if row.person.regulations_triggered.CCPA %}<span class="type-badge">CCPA</span>{% endif %}
+                        {% if row.person.regulations_triggered.PIPEDA %}<span class="type-badge">PIPEDA</span>{% endif %}
+                    </div>
+
+                    <div class="finding-grid">
+                        {% for finding in row.findings %}
+                        <div class="finding">
+                            <div class="finding-top">
+                                <div>
+                                    <strong>{{ finding.label }}</strong>
+                                    <small>{{ finding.subtype }} · {{ finding.redacted_value }}</small>
+                                </div>
+                                <div class="risk-badge {% if finding.risk_level == 'HIGH' %}risk-high{% elif finding.risk_level == 'MEDIUM' %}risk-medium{% else %}risk-low{% endif %}">
+                                    {{ finding.confidence_pct }}%
+                                </div>
+                            </div>
+                            <p><strong>Source:</strong> {{ finding.source_ref }}</p>
+                            <p><strong>Evidence:</strong> {{ finding.evidence }}</p>
+                            <div class="excerpt">{{ finding.excerpt }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section style="margin-top: 26px;" class="method-grid">
+            <div class="method-card">
+                <div class="section-kicker">Method</div>
+                <h3>How detection works</h3>
+                <ul>
+                    <li>Emails are parsed for subject lines, body text, attachment filenames, and extracted attachment content.</li>
+                    <li>PII candidates are evaluated with structure checks, explicit field labels, contextual keywords, and type-specific validators.</li>
+                    <li>Duplicate matches are suppressed by normalized value so repeated copies do not flood the report.</li>
+                </ul>
+            </div>
+            <div class="method-card">
+                <div class="section-kicker">Signals</div>
+                <h3>Quality controls</h3>
+                <ul>
+                    <li>Checksum validation is applied where appropriate, including payment cards, ABA routing numbers, IBANs, SINs, and NPIs.</li>
+                    <li>Substring-based context matching is avoided to reduce false positives from words like “coverage” or “deadline”.</li>
+                    <li>Confidence scores reflect evidence strength and are carried into downstream risk scoring.</li>
+                </ul>
+            </div>
+            <div class="method-card">
+                <div class="section-kicker">Limits</div>
+                <h3>Residual constraints</h3>
+                <ul>
+                    <li>Password-protected, encrypted, or unsupported attachments cannot be fully inspected.</li>
+                    <li>Entity attribution uses content anchors first and falls back to headers only under constrained direct-notice conditions, but analyst confirmation is still required for borderline cases.</li>
+                    <li>Highly obfuscated identifiers or image quality issues can still reduce recall.</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div>Gezellig Dynamics Breach Review · report generated {{ timestamp }} · build {{ build_label }}</div>
+            <div>Confidential material for breach response and compliance review. HTML schema {{ html_report_schema_version }}, CSV schema {{ csv_report_schema_version }}, QA schema {{ file_review_schema_version }}.</div>
+        </footer>
+    </div>
+</body>
+</html>

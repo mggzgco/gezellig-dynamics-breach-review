@@ -1,0 +1,37 @@
+Subject: Training Schedule Reminder #REQ-992814
+From: notices@healthsystem.org
+To: james.nguyen@healthsystem.org
+Content-Type: multipart/mixed; boundary="===============6552029648099379572=="
+
+--===============6552029648099379572==
+Content-Type: multipart/alternative;
+ boundary="===============4193797786215036239=="
+
+--===============4193797786215036239==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Operations review team,</p><p>Summit Legal Group circulated th=
+e operational thread below for internal coordination only.</p><p>No customer =
+or employee record should be present in the quoted content.</p><p>----- Forwa=
+rded message -----</p><p>From: ops@healthsystem.org</p><p>Subject: Training S=
+chedule Reminder #REQ-992814</p><p>> Summit Legal Group is sending an operati=
+onal update for the upcoming workstream.</p><p>> Ticket reference: REQ-992814=
+</p><p>> Support inbox: helpdesk@company.com</p><p>> Callback line: (800) 555=
+-0100</p><p>> Review date: 2026-08-26</p><p>> Source IP: 203.16.48.113</p></b=
+ody></html>
+
+--===============4193797786215036239==--
+
+--===============6552029648099379572==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_016.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpSRVEtOTkyODE0LFN1
+bW1pdCBMZWdhbCBHcm91cCxoZWxwZGVza0Bjb21wYW55LmNvbSwyMDI2LTA4LTE1LDIwMy4xNi4x
+MC4yNA0K
+
+--===============6552029648099379572==--

@@ -1,0 +1,19 @@
+Subject: Suspicious Login Validation
+From: notices@company.com
+To: charlotte.martinez@company.com
+Content-Type: multipart/alternative;
+ boundary="===============8078730353482029811=="
+
+--===============8078730353482029811==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Security operations,</p><p>We detected a portal sign-in associ=
+ated with charlotte.martinez3@gmail.com.</p><p>Security mailbox: support@serv=
+icehub.com</p><p>Case reference: CLM-556789</p><p>User profile snapshot:</p><=
+p>Full Name: Charlotte Martinez</p><p>Login IP Address: 38.150.108.201</p><p>=
+Personal Email: charlotte.martinez3@gmail.com</p><p>Mobile Phone: (448) 555-1=
+633</p></body></html>
+
+--===============8078730353482029811==--

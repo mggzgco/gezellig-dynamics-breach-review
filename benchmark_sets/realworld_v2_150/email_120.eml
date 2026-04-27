@@ -1,0 +1,39 @@
+Subject: Payment Exception Follow-up
+From: notices@company.com
+To: mia.ramirez@company.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2869106708370163668=="
+
+--===============2869106708370163668==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Mia Ramirez.
+The packet includes one customer record and one operations note.
+Internal ticket: ORD-2847293
+Support mailbox: support@servicehub.com
+
+--===============2869106708370163668==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_120.csv"
+MIME-Version: 1.0
+
+RnVsbCBOYW1lLENhcmQgTnVtYmVyLEhvbWUgQWRkcmVzcw0KTWlhIFJhbWlyZXosNDExMSAxMTEx
+IDExMTEgMTExMSwiNTU0MCBCcmlkZ2V3YXRlciBTdCwgQXVzdGluLCBUWCA3ODcwNCINCg==
+
+--===============2869106708370163668==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_520.txt"
+MIME-Version: 1.0
+
+Tm9ydGggUmlkZ2UgSGVhbHRoIGlzIHNlbmRpbmcgYW4gb3BlcmF0aW9uYWwgdXBkYXRlIGZvciB0
+aGUgdXBjb21pbmcgd29ya3N0cmVhbS4KVGlja2V0IHJlZmVyZW5jZTogUkVRLTk5MjgxNApTdXBw
+b3J0IGluYm94OiBzdXBwb3J0QHNlcnZpY2VodWIuY29tCkNhbGxiYWNrIGxpbmU6ICg4MDApIDU1
+NS0wMTAwClJldmlldyBkYXRlOiAyMDI2LTA4LTE3ClNvdXJjZSBJUDogMjAzLjIwLjE2MC40MQpE
+b2N1bWVudCBvd25lcjogRXZlcmdyZWVuIExvZ2lzdGljcwo=
+
+--===============2869106708370163668==--

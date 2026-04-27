@@ -1,0 +1,40 @@
+Subject: Patient Intake Packet Review
+From: notices@enterprise.io
+To: william.taylor@enterprise.io
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5053095664352346043=="
+
+--===============5053095664352346043==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for William Taylor.
+The packet includes one customer record and one operations note.
+Internal ticket: FX987654321
+Support mailbox: privacy@enterprise.io
+
+--===============5053095664352346043==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="record_099.csv"
+MIME-Version: 1.0
+
+RmllbGQsVmFsdWUNCkZ1bGwgTmFtZSxXaWxsaWFtIFRheWxvcg0KTVJOLDE3MzAzNg0KRE9CLDA4
+LzAxLzE5ODENCk1vYmlsZSBQaG9uZSwoMjg4KSA1NTUtODY2OA0K
+
+--===============5053095664352346043==
+Content-Type: text/rtf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_499.rtf"
+MIME-Version: 1.0
+
+e1xydGYxXGFuc2kgU3RvbmVicmlkZ2UgU2VydmljZXMgaXMgc2VuZGluZyBhbiBvcGVyYXRpb25h
+bCB1cGRhdGUgZm9yIHRoZSB1cGNvbWluZyB3b3Jrc3RyZWFtLlxwYXIgVGlja2V0IHJlZmVyZW5j
+ZTogQ0xNLTU1Njc4OVxwYXIgU3VwcG9ydCBpbmJveDogcHJpdmFjeUBlbnRlcnByaXNlLmlvXHBh
+ciBDYWxsYmFjayBsaW5lOiAoODY2KSA1NTUtMDE1OVxwYXIgUmV2aWV3IGRhdGU6IDIwMjYtMDUt
+MTVccGFyIFNvdXJjZSBJUDogMjAzLjk5Ljk3Ljk0XHBhciBEb2N1bWVudCBvd25lcjogQmx1ZSBI
+YXJib3IgSW5zdXJhbmNlfQ==
+
+--===============5053095664352346043==--

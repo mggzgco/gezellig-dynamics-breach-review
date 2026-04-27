@@ -1,0 +1,49 @@
+Subject: Record Verification Required
+From: notices@company.com
+To: aaliyah.anderson@company.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6209321940722632664=="
+
+--===============6209321940722632664==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Aaliyah Anderson.
+The packet includes one customer record and one operations note.
+Internal ticket: INC-420175
+Support mailbox: support@servicehub.com
+
+--===============6209321940722632664==
+Content-Type: message/rfc822
+MIME-Version: 1.0
+Content-Disposition: attachment; filename="record_125.eml"
+
+Subject: Forwarded Record Details
+From: notifications@records.example
+To: reviewer@example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Please review the attached information.
+
+Forwarding the enclosed record.
+Full Name: Aaliyah Anderson
+VIN: NZEZ5KNK3D0PNKB5T
+Home Address: 5725 Park Avenue, Portland, OR 97214
+
+--===============6209321940722632664==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_525.txt"
+MIME-Version: 1.0
+
+UGlvbmVlciBGaW5hbmNpYWwgaXMgc2VuZGluZyBhbiBvcGVyYXRpb25hbCB1cGRhdGUgZm9yIHRo
+ZSB1cGNvbWluZyB3b3Jrc3RyZWFtLgpUaWNrZXQgcmVmZXJlbmNlOiBGWDk4NzY1NDMyMQpTdXBw
+b3J0IGluYm94OiBzdXBwb3J0QHNlcnZpY2VodWIuY29tCkNhbGxiYWNrIGxpbmU6ICg4ODgpIDU1
+NS0wMTQ4ClJldmlldyBkYXRlOiAyMDI2LTA0LTIyClNvdXJjZSBJUDogMjAzLjI1LjE3NS43NgpE
+b2N1bWVudCBvd25lcjogQnJpZ2h0bGluZSBFZHVjYXRpb24K
+
+--===============6209321940722632664==--

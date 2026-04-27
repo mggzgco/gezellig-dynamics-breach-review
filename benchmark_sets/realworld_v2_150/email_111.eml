@@ -1,0 +1,50 @@
+Subject: Vendor Tax Documentation Review
+From: notices@healthsystem.org
+To: ethan.carter@healthsystem.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4376943861282166240=="
+
+--===============4376943861282166240==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Ethan Carter.
+The packet includes one customer record and one operations note.
+Internal ticket: FX987654321
+Support mailbox: helpdesk@company.com
+
+--===============4376943861282166240==
+Content-Type: message/rfc822
+MIME-Version: 1.0
+Content-Disposition: attachment; filename="record_111.eml"
+
+Subject: Forwarded Record Details
+From: notifications@records.example
+To: reviewer@example.com
+Content-Type: multipart/alternative;
+ boundary="===============6469553276732363970=="
+
+--===============6469553276732363970==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Please review the attached information.</p><p>Forwarding the e=
+nclosed record.</p><p>Full Name: Ethan Carter</p><p>EIN: 18-6184112</p><p>Hom=
+e Address: 5207 Riverview Lane, Denver, CO 80203</p></body></html>
+
+--===============6469553276732363970==--
+
+--===============4376943861282166240==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_511.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpDTE0tNTU2Nzg5LEJs
+dWUgSGFyYm9yIEluc3VyYW5jZSxoZWxwZGVza0Bjb21wYW55LmNvbSwyMDI2LTA4LTE1LDIwMy4x
+MS4xMC4yNA0K
+
+--===============4376943861282166240==--

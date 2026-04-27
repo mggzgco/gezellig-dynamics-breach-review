@@ -1,0 +1,48 @@
+Subject: Record Verification Required
+From: notices@enterprise.io
+To: william.taylor@enterprise.io
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8501179690689543198=="
+
+--===============8501179690689543198==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for William Taylor.
+The packet includes one customer record and one operations note.
+Internal ticket: REQ-992814
+Support mailbox: privacy@enterprise.io
+
+--===============8501179690689543198==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="review_packet_124.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIAA8zllyTivbsigAAAKoAAAAOAAAAcmVjb3JkXzEyNC5ydGYlzMEKgkAQANBfmS9Q
+16xoTyXVUaKCLl4mXXFh1pHZkYjo3yM9P3ifWrQzNQ7Rw0EVm961cHUNS1uPKHCeiKDC4Cw8PJHH
+AHd8E8usR1QH3EHpRXsL2TrN8tTsNtmsF4xxZFGopvB0YuFmTJGvTGEWdhJ5QIJTQE8WXsuf6Pxv
+96Ow8vC3pOHw/QFQSwMEFAAAAAgADzOWXKIBMfa6AAAA4gAAABAAAABvcHNfbm90ZV8xMjQudHh0
+FY4xbsMwDEV3nYJjO1iQ1Ti1PRUIMmRLnV6AkZmWsCIKtJy0t689vo/3gXegERXOwqnAQAU5As8w
+Uxo5fQMmkEyKhSVhhCWPWAhuolB+aMUg9017ik5zUcK7NV8cJiqgdCOlFKiH4fhZdZ1v6525LDmL
+FuB0ld8esvIDw98HpUK6wkyWxRwwxiuGCSKn9f7SOvcKTdNUrnbODPRgesIW0oN3fl+5tvLOXGTR
+QHA6b+ub9Ttbv3u778w/UEsBAhQDFAAAAAgADzOWXJOK9uyKAAAAqgAAAA4AAAAAAAAAAAAAAIAB
+AAAAAHJlY29yZF8xMjQucnRmUEsBAhQDFAAAAAgADzOWXKIBMfa6AAAA4gAAABAAAAAAAAAAAAAA
+AIABtgAAAG9wc19ub3RlXzEyNC50eHRQSwUGAAAAAAIAAgB6AAAAngEAAAAA
+
+--===============8501179690689543198==
+Content-Type: text/rtf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_524.rtf"
+MIME-Version: 1.0
+
+e1xydGYxXGFuc2kgQ2VkYXIgUG9pbnQgUmV0YWlsIGlzIHNlbmRpbmcgYW4gb3BlcmF0aW9uYWwg
+dXBkYXRlIGZvciB0aGUgdXBjb21pbmcgd29ya3N0cmVhbS5ccGFyIFRpY2tldCByZWZlcmVuY2U6
+IFRLLTQ0NTU2NlxwYXIgU3VwcG9ydCBpbmJveDogcHJpdmFjeUBlbnRlcnByaXNlLmlvXHBhciBD
+YWxsYmFjayBsaW5lOiAoODAwKSA1NTUtMDEwMFxwYXIgUmV2aWV3IGRhdGU6IDIwMjYtMDMtMjFc
+cGFyIFNvdXJjZSBJUDogMjAzLjI0LjE3Mi42OVxwYXIgRG9jdW1lbnQgb3duZXI6IFN1bW1pdCBM
+ZWdhbCBHcm91cH0=
+
+--===============8501179690689543198==--

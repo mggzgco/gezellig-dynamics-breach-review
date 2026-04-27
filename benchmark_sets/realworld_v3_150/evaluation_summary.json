@@ -1,0 +1,6160 @@
+{
+  "dataset_name": "pii-breach-benchmark-realworld-v3",
+  "dataset_dir": "benchmark_sets/realworld_v3_150",
+  "evaluated_at": "2026-04-22T13:45:58.290929+00:00",
+  "overall": {
+    "expected": 641,
+    "detected": 664,
+    "true_positive": 407,
+    "false_positive": 257,
+    "false_negative": 234,
+    "precision": 0.613,
+    "recall": 0.6349
+  },
+  "by_type": {
+    "ADDRESS": {
+      "expected": 98,
+      "detected": 95,
+      "true_positive": 16,
+      "false_positive": 79,
+      "false_negative": 82,
+      "precision": 0.1684,
+      "recall": 0.1633
+    },
+    "BANK_ACCOUNT": {
+      "expected": 14,
+      "detected": 11,
+      "true_positive": 11,
+      "false_positive": 0,
+      "false_negative": 3,
+      "precision": 1.0,
+      "recall": 0.7857
+    },
+    "CREDIT_CARD": {
+      "expected": 6,
+      "detected": 6,
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "DOB": {
+      "expected": 121,
+      "detected": 109,
+      "true_positive": 88,
+      "false_positive": 21,
+      "false_negative": 33,
+      "precision": 0.8073,
+      "recall": 0.7273
+    },
+    "DRIVERS_LICENSE": {
+      "expected": 13,
+      "detected": 18,
+      "true_positive": 8,
+      "false_positive": 10,
+      "false_negative": 5,
+      "precision": 0.4444,
+      "recall": 0.6154
+    },
+    "EIN": {
+      "expected": 7,
+      "detected": 6,
+      "true_positive": 4,
+      "false_positive": 2,
+      "false_negative": 3,
+      "precision": 0.6667,
+      "recall": 0.5714
+    },
+    "EMAIL": {
+      "expected": 37,
+      "detected": 39,
+      "true_positive": 20,
+      "false_positive": 19,
+      "false_negative": 17,
+      "precision": 0.5128,
+      "recall": 0.5405
+    },
+    "FULL_NAME": {
+      "expected": 141,
+      "detected": 193,
+      "true_positive": 118,
+      "false_positive": 75,
+      "false_negative": 23,
+      "precision": 0.6114,
+      "recall": 0.8369
+    },
+    "IBAN": {
+      "expected": 7,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 4,
+      "precision": 1.0,
+      "recall": 0.4286
+    },
+    "ICD10": {
+      "expected": 14,
+      "detected": 7,
+      "true_positive": 7,
+      "false_positive": 0,
+      "false_negative": 7,
+      "precision": 1.0,
+      "recall": 0.5
+    },
+    "MEDICARE": {
+      "expected": 13,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 10,
+      "precision": 1.0,
+      "recall": 0.2308
+    },
+    "MRN": {
+      "expected": 45,
+      "detected": 26,
+      "true_positive": 20,
+      "false_positive": 6,
+      "false_negative": 25,
+      "precision": 0.7692,
+      "recall": 0.4444
+    },
+    "NDC": {
+      "expected": 7,
+      "detected": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 3,
+      "precision": 1.0,
+      "recall": 0.5714
+    },
+    "PASSPORT": {
+      "expected": 7,
+      "detected": 7,
+      "true_positive": 4,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision": 0.5714,
+      "recall": 0.5714
+    },
+    "PHONE": {
+      "expected": 80,
+      "detected": 102,
+      "true_positive": 72,
+      "false_positive": 30,
+      "false_negative": 8,
+      "precision": 0.7059,
+      "recall": 0.9
+    },
+    "SSN": {
+      "expected": 31,
+      "detected": 35,
+      "true_positive": 23,
+      "false_positive": 12,
+      "false_negative": 8,
+      "precision": 0.6571,
+      "recall": 0.7419
+    }
+  },
+  "files": [
+    {
+      "eml_filename": "email_001.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_002.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_003.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_004.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_005.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_006.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_007.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_008.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_009.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_010.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_011.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_012.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_013.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_014.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_015.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_016.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_017.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_018.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_019.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_020.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_021.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_022.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_023.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_024.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_025.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_026.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_027.eml",
+      "expected_count": 0,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_028.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_028.eml > identity_scan_028.png",
+          "normalized_value": "5536 CEDAR ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_028.eml > identity_scan_028.png",
+          "normalized_value": "1960-12-28",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_028.eml > identity_scan_028.png",
+          "normalized_value": "536 CEDAR ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_029.eml",
+      "expected_count": 4,
+      "detected_count": 1,
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_029.eml > identity_scan_029.jpg",
+          "normalized_value": "5573 RIVERVIEW AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_029.eml > identity_scan_029.jpg",
+          "normalized_value": "1963-05-26",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_029.eml > identity_scan_029.jpg",
+          "normalized_value": "MN8337728",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_029.eml > identity_scan_029.jpg",
+          "normalized_value": "CALEB CHEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_029.eml > identity_scan_029.jpg",
+          "normalized_value": "MNB337728",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_030.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_030.eml > identity_scan_030.pdf",
+          "normalized_value": "5610 PARK RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_030.eml > identity_scan_030.pdf",
+          "normalized_value": "1966-03-23",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_030.eml > identity_scan_030.pdf",
+          "normalized_value": "1968-03-23",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_031.eml",
+      "expected_count": 4,
+      "detected_count": 1,
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_031.eml > identity_scan_031.png",
+          "normalized_value": "1969-03-20",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_031.eml > identity_scan_031.png",
+          "normalized_value": "daniel.singh1@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_031.eml > identity_scan_031.png",
+          "normalized_value": "DANIEL SINGH",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_031.eml > identity_scan_031.png",
+          "normalized_value": "6685555350",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_031.eml > identity_scan_031.png",
+          "normalized_value": "DANIA SINGH",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_032.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_032.eml > identity_scan_032.jpg",
+          "normalized_value": "5684 PINE ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_032.eml > identity_scan_032.jpg",
+          "normalized_value": "1972-09-11",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_032.eml > identity_scan_032.jpg",
+          "normalized_value": "505377054",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_032.eml > identity_scan_032.jpg",
+          "normalized_value": "7054 HOME ADRESS 5684 PINE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_032.eml > identity_scan_032.jpg",
+          "normalized_value": "505977054",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_033.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_034.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 0,
+      "false_positive": 3,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "5758 HILLCREST RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "1978-12-12",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "ELIJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "G16299193",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "5758 HILLEREST RD PHOENIX, AZ 85018",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "ELJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_034.eml > identity_scan_034.png",
+          "normalized_value": "616209183",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_035.eml",
+      "expected_count": 4,
+      "detected_count": 1,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_035.eml > identity_scan_035.jpg",
+          "normalized_value": "1981-04-19",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_035.eml > identity_scan_035.jpg",
+          "normalized_value": "emma.walker5@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_035.eml > identity_scan_035.jpg",
+          "normalized_value": "5145553496",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_036.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_036.eml > identity_scan_036.pdf",
+          "normalized_value": "5832 WALNUT ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_036.eml > identity_scan_036.pdf",
+          "normalized_value": "337569797",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_036.eml > identity_scan_036.pdf",
+          "normalized_value": "9797 HOME ADDRESS 5832 WALNUT ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_037.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 2,
+      "false_positive": 2,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_037.eml > identity_scan_037.png",
+          "normalized_value": "5869 MEADOW AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_037.eml > identity_scan_037.png",
+          "normalized_value": "GA3356594",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_037.eml > identity_scan_037.png",
+          "normalized_value": "8869 MEADOW AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_037.eml > identity_scan_037.png",
+          "normalized_value": "GAS356594",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_038.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_038.eml > identity_scan_038.jpg",
+          "normalized_value": "5906 BRIDGEWATER RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_038.eml > identity_scan_038.jpg",
+          "normalized_value": "1990-01-20",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_038.eml > identity_scan_038.jpg",
+          "normalized_value": "HENRY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_038.eml > identity_scan_038.jpg",
+          "normalized_value": "5806 BRIDGEWATER RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_038.eml > identity_scan_038.jpg",
+          "normalized_value": "HENY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_039.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_039.eml > identity_scan_039.pdf",
+          "normalized_value": "isabella.wilson2@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_040.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_040.eml > identity_scan_040.png",
+          "normalized_value": "5980 OAK ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_040.eml > identity_scan_040.png",
+          "normalized_value": "1948-07-26",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_040.eml > identity_scan_040.png",
+          "normalized_value": "JACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_040.eml > identity_scan_040.png",
+          "normalized_value": "9535 HOME ADRESS 898000NK ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_040.eml > identity_scan_040.png",
+          "normalized_value": "DACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_041.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "6017 CEDAR AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "1951-02-06",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "CA2071433",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "JAMES NGUYEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "6017 CEDAR AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_041.eml > identity_scan_041.jpg",
+          "normalized_value": "CA2071483",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_042.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_042.eml > identity_scan_042.pdf",
+          "normalized_value": "6054 RIVERVIEW RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_043.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_043.eml > identity_scan_043.png",
+          "normalized_value": "1957-10-07",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_043.eml > identity_scan_043.png",
+          "normalized_value": "lucas.brooks6@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_043.eml > identity_scan_043.png",
+          "normalized_value": "7235558729",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_043.eml > identity_scan_043.png",
+          "normalized_value": "7238558729",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_044.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_044.eml > identity_scan_044.jpg",
+          "normalized_value": "6128 LAKEVIEW ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_044.eml > identity_scan_044.jpg",
+          "normalized_value": "1960-08-05",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_044.eml > identity_scan_044.jpg",
+          "normalized_value": "526908820",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_044.eml > identity_scan_044.jpg",
+          "normalized_value": "8620 HOME ADRESS 6128 LAKEVIEW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_044.eml > identity_scan_044.jpg",
+          "normalized_value": "526908620",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_045.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_046.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "6202 WILLOW RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "1966-03-25",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "NOAH WILLIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "E80934967",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_046.eml > identity_scan_046.png",
+          "normalized_value": "30934967",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_047.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_047.eml > identity_scan_047.jpg",
+          "normalized_value": "1969-11-09",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_047.eml > identity_scan_047.jpg",
+          "normalized_value": "olivia.davis3@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_047.eml > identity_scan_047.jpg",
+          "normalized_value": "8605555303",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_047.eml > identity_scan_047.jpg",
+          "normalized_value": "8808555303",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_048.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_048.eml > identity_scan_048.pdf",
+          "normalized_value": "6276 MAPLE ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_048.eml > identity_scan_048.pdf",
+          "normalized_value": "9989 HOME ADDRESS 6276 MAPLE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_049.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_049.eml > identity_scan_049.png",
+          "normalized_value": "6313 WALNUT AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_049.eml > identity_scan_049.png",
+          "normalized_value": "CA6948607",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_049.eml > identity_scan_049.png",
+          "normalized_value": "WILLIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_049.eml > identity_scan_049.png",
+          "normalized_value": "48607 HOME ADDRESS 6313 WALNUT AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_049.eml > identity_scan_049.png",
+          "normalized_value": "WILIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_050.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_050.eml > identity_scan_050.jpg",
+          "normalized_value": "6350 MEADOW RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_050.eml > identity_scan_050.jpg",
+          "normalized_value": "1978-09-12",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_050.eml > identity_scan_050.jpg",
+          "normalized_value": "A56846391",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_050.eml > identity_scan_050.jpg",
+          "normalized_value": "6350 MEADOW RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PASSPORT",
+          "source_ref": "email_050.eml > identity_scan_050.jpg",
+          "normalized_value": "58846391",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_051.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_051.eml > identity_scan_051.pdf",
+          "normalized_value": "amelia.hughes7@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_052.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_052.eml > identity_scan_052.png",
+          "normalized_value": "6424 SUNSET ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_052.eml > identity_scan_052.png",
+          "normalized_value": "1984-06-12",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_052.eml > identity_scan_052.png",
+          "normalized_value": "376551573",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_052.eml > identity_scan_052.png",
+          "normalized_value": "6424 SUNSET ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_053.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_053.eml > identity_scan_053.jpg",
+          "normalized_value": "6461 OAK AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_053.eml > identity_scan_053.jpg",
+          "normalized_value": "1987-08-11",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_053.eml > identity_scan_053.jpg",
+          "normalized_value": "NC4984144",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_053.eml > identity_scan_053.jpg",
+          "normalized_value": "6481 OOK AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_053.eml > identity_scan_053.jpg",
+          "normalized_value": "NC4884144",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_054.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_054.eml > identity_scan_054.pdf",
+          "normalized_value": "6498 CEDAR RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_054.eml > identity_scan_054.pdf",
+          "normalized_value": "CALEB CHEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_054.eml > identity_scan_054.pdf",
+          "normalized_value": "6498 CEDAR RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_055.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_056.eml",
+      "expected_count": 7,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 6,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "4972 OAK ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "1948-08-22",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "E119",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "2UT3DL2VT79",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "409290",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "NDC",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "00597008717",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "17 HOME ADDRESS 4972000K ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_056.eml > medical_statement_056.jpg",
+          "normalized_value": "005970087",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_057.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_057.eml > medical_statement_057.pdf",
+          "normalized_value": "5009 CEDAR AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_057.eml > medical_statement_057.pdf",
+          "normalized_value": "6245 HOME ADDRESS 5009 CEDAR AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_058.eml",
+      "expected_count": 5,
+      "detected_count": 4,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_058.eml > medical_statement_058.pdf",
+          "normalized_value": "5046 RIVERVIEW RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_058.eml > medical_statement_058.pdf",
+          "normalized_value": "elena.garcia1@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_058.eml > medical_statement_058.pdf",
+          "normalized_value": "5046 RIVERVIEW RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_059.eml",
+      "expected_count": 5,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_059.eml > medical_statement_059.jpg",
+          "normalized_value": "1957-05-01",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_059.eml > medical_statement_059.jpg",
+          "normalized_value": "ELIJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_059.eml > medical_statement_059.jpg",
+          "normalized_value": "M545",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_059.eml > medical_statement_059.jpg",
+          "normalized_value": "696633",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_059.eml > medical_statement_059.jpg",
+          "normalized_value": "ELJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_060.eml",
+      "expected_count": 7,
+      "detected_count": 7,
+      "true_positive": 6,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_060.eml > medical_statement_060.pdf",
+          "normalized_value": "5120 LAKEVIEW ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_060.eml > medical_statement_060.pdf",
+          "normalized_value": "17 HOME ADDRESS 5120 LAKEVIEW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_061.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_061.eml > medical_statement_061.pdf",
+          "normalized_value": "5157 PINE AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_061.eml > medical_statement_061.pdf",
+          "normalized_value": "4424 HOME ADDRESS 5157 PINE AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_062.eml",
+      "expected_count": 5,
+      "detected_count": 1,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_062.eml > medical_statement_062.jpg",
+          "normalized_value": "5194 WILLOW RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_062.eml > medical_statement_062.jpg",
+          "normalized_value": "1966-07-09",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_062.eml > medical_statement_062.jpg",
+          "normalized_value": "grace.kim5@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_062.eml > medical_statement_062.jpg",
+          "normalized_value": "4XC4LA5HJ50",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_063.eml",
+      "expected_count": 5,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_063.eml > medical_statement_063.pdf",
+          "normalized_value": "I10",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_064.eml",
+      "expected_count": 7,
+      "detected_count": 7,
+      "true_positive": 6,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_064.eml > medical_statement_064.pdf",
+          "normalized_value": "5268 MAPLE ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_064.eml > medical_statement_064.pdf",
+          "normalized_value": "17 HOME ADDRESS 5268 MAPLE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_065.eml",
+      "expected_count": 5,
+      "detected_count": 3,
+      "true_positive": 0,
+      "false_positive": 3,
+      "false_negative": 5,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "5305 WALNUT AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "1975-07-23",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "JACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "849960",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "9285556118",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "6118 HOME ADRESS 5305 WALNUT AVENUE, CHARLOT, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "DACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_065.eml > medical_statement_065.jpg",
+          "normalized_value": "2288556118",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_066.eml",
+      "expected_count": 5,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_066.eml > medical_statement_066.pdf",
+          "normalized_value": "james.nguyen2@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_066.eml > medical_statement_066.pdf",
+          "normalized_value": "7YV3EM0TU45",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_067.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_068.eml",
+      "expected_count": 7,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 6,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "5416 SUNSET ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "1984-07-09",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "E119",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "7XF6RV4MC70",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "745872",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "NDC",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "00597008717",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "17 HOME ADRESS 5416 SUNSET ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_068.eml > medical_statement_068.jpg",
+          "normalized_value": "005970087",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_069.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_069.eml > medical_statement_069.pdf",
+          "normalized_value": "5453 OAK AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_069.eml > medical_statement_069.pdf",
+          "normalized_value": "5636 HOME ADDRESS 5453 OAK AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_070.eml",
+      "expected_count": 5,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_070.eml > medical_statement_070.pdf",
+          "normalized_value": "5490 CEDAR RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_070.eml > medical_statement_070.pdf",
+          "normalized_value": "mia.ramirez6@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_070.eml > medical_statement_070.pdf",
+          "normalized_value": "4TC0EE1PF09",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_070.eml > medical_statement_070.pdf",
+          "normalized_value": "5490 CEDAR RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_071.eml",
+      "expected_count": 5,
+      "detected_count": 2,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 5,
+      "expected_missing": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "1993-08-04",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "NOAH WILLIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "M545",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "782663",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "2895555497",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_071.eml > medical_statement_071.jpg",
+          "normalized_value": "2898555497",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_072.eml",
+      "expected_count": 7,
+      "detected_count": 6,
+      "true_positive": 5,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_072.eml > medical_statement_072.pdf",
+          "normalized_value": "5564 PARK ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_072.eml > medical_statement_072.pdf",
+          "normalized_value": "9JU5QT4RL98",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_072.eml > medical_statement_072.pdf",
+          "normalized_value": "17 HOME ADDRESS 5564 PARK ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_073.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_073.eml > medical_statement_073.pdf",
+          "normalized_value": "5601 LAKEVIEW AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_073.eml > medical_statement_073.pdf",
+          "normalized_value": "2016 HOME ADDRESS 5601 LAKEVIEW AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_074.eml",
+      "expected_count": 5,
+      "detected_count": 1,
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 5,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "5638 PINE RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "1954-05-11",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "william.taylor3@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "WILLIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "2DG3LR5EK20",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_074.eml > medical_statement_074.jpg",
+          "normalized_value": "WILIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_075.eml",
+      "expected_count": 5,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_075.eml > medical_statement_075.pdf",
+          "normalized_value": "I10",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_076.eml",
+      "expected_count": 7,
+      "detected_count": 6,
+      "true_positive": 5,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_076.eml > medical_statement_076.pdf",
+          "normalized_value": "5712 HILLCREST ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_076.eml > medical_statement_076.pdf",
+          "normalized_value": "5EV1RF4PC00",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_076.eml > medical_statement_076.pdf",
+          "normalized_value": "17 HOME ADDRESS 5712 HILLCREST ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_077.eml",
+      "expected_count": 5,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_077.eml > medical_statement_077.jpg",
+          "normalized_value": "5749 MAPLE AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_077.eml > medical_statement_077.jpg",
+          "normalized_value": "1963-11-19",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_077.eml > medical_statement_077.jpg",
+          "normalized_value": "679603",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_077.eml > medical_statement_077.jpg",
+          "normalized_value": "7795552587",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_077.eml > medical_statement_077.jpg",
+          "normalized_value": "2587 HOME ADRESS 5749 MAPLE AVENUE, CHARLOTTE, NC 26203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_078.eml",
+      "expected_count": 5,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_078.eml > medical_statement_078.pdf",
+          "normalized_value": "benjamin.washington7@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_078.eml > medical_statement_078.pdf",
+          "normalized_value": "5DY8TJ7AR16",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_079.eml",
+      "expected_count": 5,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_079.eml > medical_statement_079.pdf",
+          "normalized_value": "CALEB CHEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_080.eml",
+      "expected_count": 7,
+      "detected_count": 3,
+      "true_positive": 0,
+      "false_positive": 3,
+      "false_negative": 7,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "5860 BRIDGEWATER ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "1972-09-26",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "CHARLOTTE MARTINEZ",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "ICD10",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "E119",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MEDICARE",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "7PK7EE6AF26",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "114728",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "NDC",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "00597008717",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "17 HOME ADRESS 5860 BRIDGEWATER ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "CHAROTE MARTINE",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_080.eml > medical_statement_080.jpg",
+          "normalized_value": "005970087",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_081.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_081.eml > medical_statement_081.pdf",
+          "normalized_value": "5897 SUNSET AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_081.eml > medical_statement_081.pdf",
+          "normalized_value": "9502 HOME ADDRESS 5897 SUNSET AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_082.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "4334 MEADOW RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "david.young5@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "DAVID YOUNG",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "IBAN",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "FR1420041010050500013M02606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "4334 MEADOW RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_082.eml > payment_packet_082.zip",
+          "normalized_value": "DAVI YOUNG",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_083.eml",
+      "expected_count": 3,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_084.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_085.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_085.eml > payment_packet_085.zip",
+          "normalized_value": "4445 OAK AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_085.eml > payment_packet_085.zip",
+          "normalized_value": "5555 5555 4444 HOME ADDRESS 4445 OAK AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_086.eml",
+      "expected_count": 4,
+      "detected_count": 1,
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_086.eml > payment_packet_086.zip",
+          "normalized_value": "4482 CEDAR RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_086.eml > payment_packet_086.zip",
+          "normalized_value": "ethan.carter2@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "IBAN",
+          "source_ref": "email_086.eml > payment_packet_086.zip",
+          "normalized_value": "FR1420041010050500013M02606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_087.eml",
+      "expected_count": 3,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_087.eml > payment_packet_087.zip",
+          "normalized_value": "4519 RIVERVIEW LANE, RICHMOND, VA 23220",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EIN",
+          "source_ref": "email_087.eml > payment_packet_087.zip",
+          "normalized_value": "979392338",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_087.eml > payment_packet_087.zip",
+          "normalized_value": "4519 RIVERVIEW LANE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_088.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_089.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_090.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_090.eml > payment_packet_090.zip",
+          "normalized_value": "4630 PINE RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_090.eml > payment_packet_090.zip",
+          "normalized_value": "jack.foster6@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_090.eml > payment_packet_090.zip",
+          "normalized_value": "0001 3M02 606 HOME ADDRESS 4630 PINE RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_091.eml",
+      "expected_count": 3,
+      "detected_count": 2,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_091.eml > payment_packet_091.zip",
+          "normalized_value": "4667 WILLOW LANE, DENVER, CO 80203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EIN",
+          "source_ref": "email_091.eml > payment_packet_091.zip",
+          "normalized_value": "542146217",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_091.eml > payment_packet_091.zip",
+          "normalized_value": "JAMES NGUYEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_091.eml > payment_packet_091.zip",
+          "normalized_value": "4687 WILLOW LANE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EIN",
+          "source_ref": "email_091.eml > payment_packet_091.zip",
+          "normalized_value": "642148217",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_092.eml",
+      "expected_count": 5,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_092.eml > payment_packet_092.zip",
+          "normalized_value": "4704 HILLCREST ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "BANK_ACCOUNT",
+          "source_ref": "email_092.eml > payment_packet_092.zip",
+          "normalized_value": "4496419648",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "BANK_ACCOUNT",
+          "source_ref": "email_092.eml > payment_packet_092.zip",
+          "normalized_value": "021000021",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_092.eml > payment_packet_092.zip",
+          "normalized_value": "1960-10-12",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_092.eml > payment_packet_092.zip",
+          "normalized_value": "1860 HOME ADRESS 4704 HILLEREST ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_093.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_094.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_095.eml",
+      "expected_count": 3,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_096.eml",
+      "expected_count": 5,
+      "detected_count": 3,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "4852 BRIDGEWATER ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "BANK_ACCOUNT",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "14371022754",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "1972-12-19",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "NOAH WILLIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "1872 HOME ADDRESS 4852 BRIDGEWATER ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_096.eml > payment_packet_096.zip",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_097.eml",
+      "expected_count": 4,
+      "detected_count": 3,
+      "true_positive": 2,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_097.eml > payment_packet_097.zip",
+          "normalized_value": "4889 SUNSET AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_097.eml > payment_packet_097.zip",
+          "normalized_value": "8995558494",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_097.eml > payment_packet_097.zip",
+          "normalized_value": "5555 55555555 4444 HOME ADRESS 4889 SUNSET AVENUE, CHARLOT, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_098.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_099.eml",
+      "expected_count": 3,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_100.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 4,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_100.eml > payment_packet_100.zip",
+          "normalized_value": "5000 RIVERVIEW ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_100.eml > payment_packet_100.zip",
+          "normalized_value": "1984 HOME ADDRESS 5000 RIVERVIEW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_101.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_101.eml > payment_packet_101.zip",
+          "normalized_value": "5037 PARK AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_101.eml > payment_packet_101.zip",
+          "normalized_value": "5555 5555 4444 HOME ADRESS 5037 PARK AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_102.eml",
+      "expected_count": 4,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_102.eml > payment_packet_102.zip",
+          "normalized_value": "5074 LAKEVIEW RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_102.eml > payment_packet_102.zip",
+          "normalized_value": "ava.price4@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "IBAN",
+          "source_ref": "email_102.eml > payment_packet_102.zip",
+          "normalized_value": "FR1420041010050500013M02606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_102.eml > payment_packet_102.zip",
+          "normalized_value": "5074 LAKEVIEW PL",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_103.eml",
+      "expected_count": 3,
+      "detected_count": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_104.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_105.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_105.eml > payment_packet_105.zip",
+          "normalized_value": "5185 HILLCREST AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_105.eml > payment_packet_105.zip",
+          "normalized_value": "5555 5555 4444 HOME ADDRESS 5185 HILLCREST AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_106.eml",
+      "expected_count": 4,
+      "detected_count": 1,
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_106.eml > payment_packet_106.zip",
+          "normalized_value": "5222 MAPLE RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_106.eml > payment_packet_106.zip",
+          "normalized_value": "daniel.singh1@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_106.eml > payment_packet_106.zip",
+          "normalized_value": "DANIEL SINGH",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "IBAN",
+          "source_ref": "email_106.eml > payment_packet_106.zip",
+          "normalized_value": "FR1420041010050500013M02606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_106.eml > payment_packet_106.zip",
+          "normalized_value": "DANIA SINGH",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_107.eml",
+      "expected_count": 3,
+      "detected_count": 2,
+      "true_positive": 1,
+      "false_positive": 1,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_107.eml > payment_packet_107.zip",
+          "normalized_value": "5259 WALNUT LANE, TAMPA, FL 33606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EIN",
+          "source_ref": "email_107.eml > payment_packet_107.zip",
+          "normalized_value": "311138522",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "EIN",
+          "source_ref": "email_107.eml > payment_packet_107.zip",
+          "normalized_value": "311198822",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_108.eml",
+      "expected_count": 5,
+      "detected_count": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_109.eml",
+      "expected_count": 4,
+      "detected_count": 6,
+      "true_positive": 1,
+      "false_positive": 5,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_109.eml > forwarded_review_109.eml",
+          "normalized_value": "3733 MAPLE AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_109.eml > forwarded_review_109.eml",
+          "normalized_value": "1963-06-20",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_109.eml > forwarded_review_109.eml",
+          "normalized_value": "ELIJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_109.eml > forwarded_review_109.eml",
+          "normalized_value": "3783 MAPLE AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_109.eml > review_scan_109.png",
+          "normalized_value": "3783 MAPLE AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_109.eml > forwarded_review_109.eml",
+          "normalized_value": "ELJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_109.eml > review_scan_109.png",
+          "normalized_value": "ELJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_109.eml > review_scan_109.png",
+          "normalized_value": "575748038",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_110.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_110.eml > record_110.docx",
+          "normalized_value": "1966-05-12",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_110.eml > record_110.docx",
+          "normalized_value": "EMMA WALKER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_110.eml > record_110.docx",
+          "normalized_value": "322089",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_110.eml > record_110.docx",
+          "normalized_value": "6045556703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_111.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_111.eml > record_111.xlsx",
+          "normalized_value": "1969-06-27",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_111.eml > record_111.xlsx",
+          "normalized_value": "VA8552607",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_111.eml > record_111.xlsx",
+          "normalized_value": "ETHAN CARTER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_111.eml > record_111.xlsx",
+          "normalized_value": "6085555205",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_112.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_112.eml > forwarded_review_112.eml",
+          "normalized_value": "3844 BRIDGEWATER ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_112.eml > forwarded_review_112.eml",
+          "normalized_value": "6189 HOME ADDRESS 3844 BRIDGEWATER ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_112.eml > review_scan_112.pdf",
+          "normalized_value": "6189 HOME ADDRESS 3844 BRIDGEWATER ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_112.eml > review_scan_112.pdf",
+          "normalized_value": "1972-04-14",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_112.eml > review_scan_112.pdf",
+          "normalized_value": "GRACE KIM",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_112.eml > review_scan_112.pdf",
+          "normalized_value": "9805556189",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_113.eml",
+      "expected_count": 4,
+      "detected_count": 6,
+      "true_positive": 0,
+      "false_positive": 6,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "3881 SUNSET AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "1975-10-08",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "HENRY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "193711579",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "1879 HOME ADRESS 3881 SUNSET AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_113.eml > review_scan_113.png",
+          "normalized_value": "1879 HOME ADRESS 3881 SUNSET AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "HENTY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_113.eml > review_scan_113.png",
+          "normalized_value": "HENTY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_113.eml > forwarded_review_113.eml",
+          "normalized_value": "198711879",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_113.eml > review_scan_113.png",
+          "normalized_value": "198711879",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_114.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_114.eml > record_114.docx",
+          "normalized_value": "1978-02-01",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_114.eml > record_114.docx",
+          "normalized_value": "ISABELLA WILSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_114.eml > record_114.docx",
+          "normalized_value": "338442",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_114.eml > record_114.docx",
+          "normalized_value": "8405552760",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_115.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_115.eml > record_115.xlsx",
+          "normalized_value": "1981-10-10",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_115.eml > record_115.xlsx",
+          "normalized_value": "OR7861506",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_115.eml > record_115.xlsx",
+          "normalized_value": "JACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_115.eml > record_115.xlsx",
+          "normalized_value": "4425552377",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_116.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_116.eml > forwarded_review_116.eml",
+          "normalized_value": "3992 RIVERVIEW ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_116.eml > forwarded_review_116.eml",
+          "normalized_value": "1650 HOME ADDRESS 3992 RIVERVIEW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_116.eml > review_scan_116.pdf",
+          "normalized_value": "1650 HOME ADDRESS 3992 RIVERVIEW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_116.eml > review_scan_116.pdf",
+          "normalized_value": "1984-11-13",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_116.eml > review_scan_116.pdf",
+          "normalized_value": "JAMES NGUYEN",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_116.eml > review_scan_116.pdf",
+          "normalized_value": "6105551650",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_117.eml",
+      "expected_count": 4,
+      "detected_count": 4,
+      "true_positive": 1,
+      "false_positive": 3,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_117.eml > forwarded_review_117.eml",
+          "normalized_value": "4029 PARK AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_117.eml > forwarded_review_117.eml",
+          "normalized_value": "1987-07-05",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_117.eml > forwarded_review_117.eml",
+          "normalized_value": "403893701",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_117.eml > review_scan_117.png",
+          "normalized_value": "LIAM THOMAS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_117.eml > forwarded_review_117.eml",
+          "normalized_value": "403898701",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_117.eml > review_scan_117.png",
+          "normalized_value": "403898701",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_118.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_118.eml > record_118.docx",
+          "normalized_value": "1990-01-27",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_118.eml > record_118.docx",
+          "normalized_value": "LUCAS BROOKS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_118.eml > record_118.docx",
+          "normalized_value": "940965",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_118.eml > record_118.docx",
+          "normalized_value": "5565554389",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_119.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_119.eml > record_119.xlsx",
+          "normalized_value": "1993-08-17",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_119.eml > record_119.xlsx",
+          "normalized_value": "OR7923485",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_119.eml > record_119.xlsx",
+          "normalized_value": "MASON JOHNSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_119.eml > record_119.xlsx",
+          "normalized_value": "5035551466",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_120.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_120.eml > forwarded_review_120.eml",
+          "normalized_value": "4140 WILLOW ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_120.eml > forwarded_review_120.eml",
+          "normalized_value": "6731 HOME ADDRESS 4140 WILLOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_120.eml > review_scan_120.pdf",
+          "normalized_value": "6731 HOME ADDRESS 4140 WILLOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_120.eml > review_scan_120.pdf",
+          "normalized_value": "1948-10-24",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_120.eml > review_scan_120.pdf",
+          "normalized_value": "MIA RAMIREZ",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_120.eml > review_scan_120.pdf",
+          "normalized_value": "6715556731",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_121.eml",
+      "expected_count": 4,
+      "detected_count": 6,
+      "true_positive": 2,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_121.eml > forwarded_review_121.eml",
+          "normalized_value": "4177 HILLCREST AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_121.eml > forwarded_review_121.eml",
+          "normalized_value": "NOAH WILLIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_121.eml > review_scan_121.png",
+          "normalized_value": "1951-07-04",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_121.eml > forwarded_review_121.eml",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_121.eml > review_scan_121.png",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_121.eml > review_scan_121.png",
+          "normalized_value": "121504683",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_122.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_122.eml > record_122.docx",
+          "normalized_value": "1954-11-28",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_122.eml > record_122.docx",
+          "normalized_value": "OLIVIA DAVIS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_122.eml > record_122.docx",
+          "normalized_value": "542914",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_122.eml > record_122.docx",
+          "normalized_value": "7985557459",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_123.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_123.eml > record_123.xlsx",
+          "normalized_value": "1957-05-01",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_123.eml > record_123.xlsx",
+          "normalized_value": "VA9159287",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_123.eml > record_123.xlsx",
+          "normalized_value": "SOPHIA MILLER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_123.eml > record_123.xlsx",
+          "normalized_value": "7705556748",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_124.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_124.eml > forwarded_review_124.eml",
+          "normalized_value": "4288 MEADOW ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_124.eml > forwarded_review_124.eml",
+          "normalized_value": "3459 HOME ADDRESS 4288 MEADOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_124.eml > review_scan_124.pdf",
+          "normalized_value": "3459 HOME ADDRESS 4288 MEADOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_124.eml > review_scan_124.pdf",
+          "normalized_value": "1960-05-01",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_124.eml > review_scan_124.pdf",
+          "normalized_value": "WILLIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_124.eml > review_scan_124.pdf",
+          "normalized_value": "8305553459",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_125.eml",
+      "expected_count": 4,
+      "detected_count": 6,
+      "true_positive": 2,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_125.eml > forwarded_review_125.eml",
+          "normalized_value": "4325 BRIDGEWATER AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_125.eml > forwarded_review_125.eml",
+          "normalized_value": "1963-07-01",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_125.eml > forwarded_review_125.eml",
+          "normalized_value": "1827 HOME ADDRESS 4325 BRIDGEWATER AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_125.eml > review_scan_125.png",
+          "normalized_value": "1827 HOME ADDRESS 4325 BRIDGEWATER AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_125.eml > review_scan_125.png",
+          "normalized_value": "AALIYAH ANDERSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_125.eml > review_scan_125.png",
+          "normalized_value": "639171827",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_126.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_126.eml > record_126.docx",
+          "normalized_value": "1966-07-22",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_126.eml > record_126.docx",
+          "normalized_value": "AMELIA HUGHES",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_126.eml > record_126.docx",
+          "normalized_value": "292460",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_126.eml > record_126.docx",
+          "normalized_value": "7195557372",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_127.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_127.eml > record_127.xlsx",
+          "normalized_value": "1969-05-28",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_127.eml > record_127.xlsx",
+          "normalized_value": "MN7200078",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_127.eml > record_127.xlsx",
+          "normalized_value": "AVA PRICE",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_127.eml > record_127.xlsx",
+          "normalized_value": "6485556149",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_128.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_128.eml > forwarded_review_128.eml",
+          "normalized_value": "4436 CEDAR ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_128.eml > forwarded_review_128.eml",
+          "normalized_value": "7396 HOME ADDRESS 4436 CEDAR ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_128.eml > review_scan_128.pdf",
+          "normalized_value": "7396 HOME ADDRESS 4436 CEDAR ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_128.eml > review_scan_128.pdf",
+          "normalized_value": "1972-09-07",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_128.eml > review_scan_128.pdf",
+          "normalized_value": "BENJAMIN WASHINGTON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_128.eml > review_scan_128.pdf",
+          "normalized_value": "7145557396",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_129.eml",
+      "expected_count": 4,
+      "detected_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 4,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_129.eml > forwarded_review_129.eml",
+          "normalized_value": "4473 RIVERVIEW AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_129.eml > forwarded_review_129.eml",
+          "normalized_value": "1975-04-18",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_129.eml > forwarded_review_129.eml",
+          "normalized_value": "CALEB CHEN",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_129.eml > forwarded_review_129.eml",
+          "normalized_value": "371968593",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_130.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_130.eml > record_130.docx",
+          "normalized_value": "1978-03-19",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_130.eml > record_130.docx",
+          "normalized_value": "CHARLOTTE MARTINEZ",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_130.eml > record_130.docx",
+          "normalized_value": "464180",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_130.eml > record_130.docx",
+          "normalized_value": "4105554886",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_131.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 4,
+      "false_positive": 4,
+      "false_negative": 0,
+      "expected_missing": [],
+      "unexpected_findings": [
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_131.eml > record_131.xlsx",
+          "normalized_value": "1981-07-07",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DRIVERS_LICENSE",
+          "source_ref": "email_131.eml > record_131.xlsx",
+          "normalized_value": "VA7099683",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_131.eml > record_131.xlsx",
+          "normalized_value": "DANIEL SINGH",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_131.eml > record_131.xlsx",
+          "normalized_value": "5355557736",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_132.eml",
+      "expected_count": 4,
+      "detected_count": 8,
+      "true_positive": 3,
+      "false_positive": 5,
+      "false_negative": 1,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_132.eml > forwarded_review_132.eml",
+          "normalized_value": "4584 PINE ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_132.eml > forwarded_review_132.eml",
+          "normalized_value": "2963 HOME ADDRESS 4584 PINE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_132.eml > review_scan_132.pdf",
+          "normalized_value": "2963 HOME ADDRESS 4584 PINE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_132.eml > review_scan_132.pdf",
+          "normalized_value": "1984-05-27",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_132.eml > review_scan_132.pdf",
+          "normalized_value": "DAVID YOUNG",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_132.eml > review_scan_132.pdf",
+          "normalized_value": "4565552963",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_133.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "3021 PARK AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "997884",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "6138 HOME ADDRESS 3021 PARK AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "elena.garcia2@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "ELENA GARCIA",
+          "count": "2",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_133.eml > household_packet_133.zip",
+          "normalized_value": "2028558605",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_134.eml",
+      "expected_count": 10,
+      "detected_count": 14,
+      "true_positive": 8,
+      "false_positive": 6,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "3058 LAKEVIEW RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "385635",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "5273 HOME ADDRESS 3058 LAKEVIEW RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "patel8@protormail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "elijah.patel3@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "ELIJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "ELJAH PATEL",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_134.eml > household_packet_134.zip",
+          "normalized_value": "6885556504",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_135.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "3095 PINE LANE, TAMPA, FL 33606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "882184",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "5907 HOME ADDRESS 3095 PINE LANE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "emma.walker4@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "EMMA WALKER",
+          "count": "2",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_135.eml > household_packet_135.zip",
+          "normalized_value": "6108555621",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_136.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_136.eml > household_packet_136.zip",
+          "normalized_value": "3132 WILLOW ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_136.eml > household_packet_136.zip",
+          "normalized_value": "447719",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_136.eml > household_packet_136.zip",
+          "normalized_value": "3906 HOME ADDRESS 3132 WILLOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_136.eml > household_packet_136.zip",
+          "normalized_value": "ethan.carter5@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_136.eml > household_packet_136.zip",
+          "normalized_value": "ETHAN CARTER",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_137.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "3169 HILLCREST AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "894965",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "8061 HOME ADDRESS 3169 HILLCREST AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "grace.kim6@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "GRACE KIM",
+          "count": "2",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_137.eml > household_packet_137.zip",
+          "normalized_value": "7428558283",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_138.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 7,
+      "false_positive": 5,
+      "false_negative": 3,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "3206 MAPLE RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "913812",
+          "count": "1",
+          "risk_level": "HIGH"
+        },
+        {
+          "pii_type": "SSN",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "337748726",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "7 4-87 26 HOME ADDRESS 3206 MAPLE RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "henry.robinson7@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "HENRY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "HENTY ROBINSON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_138.eml > household_packet_138.zip",
+          "normalized_value": "6468557202",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_139.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "3243 WALNUT LANE, RICHMOND, VA 23220",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "712204",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "5579 HOME ADDRESS 3243 WALNUT LANE, RICHMOND, VA 23220",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "isabella.wilson1@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "ABOTLA WISON",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_139.eml > household_packet_139.zip",
+          "normalized_value": "ISABELLA WILSON",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_140.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "3280 MEADOW ST, AUSTIN, TX 78704",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "398862",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "1289 HOME ADDRESS 3280 MEADOW ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "jack.foster2@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "DACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_140.eml > household_packet_140.zip",
+          "normalized_value": "JACK FOSTER",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_141.eml",
+      "expected_count": 10,
+      "detected_count": 11,
+      "true_positive": 8,
+      "false_positive": 3,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_141.eml > household_packet_141.zip",
+          "normalized_value": "3317 BRIDGEWATER AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_141.eml > household_packet_141.zip",
+          "normalized_value": "598689",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_141.eml > household_packet_141.zip",
+          "normalized_value": "2599 HOME ADDRESS 3317 BRIDGEWATER AVENUE, NASHVILLE, TN 37212",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_141.eml > household_packet_141.zip",
+          "normalized_value": "james.nguyen3@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_141.eml > household_packet_141.zip",
+          "normalized_value": "JAMES NGUYEN",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_142.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "3354 SUNSET RD, MINNEAPOLIS, MN 55408",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "690731",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "5134 HOME ADDRESS 3354 SUNSET RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "DOB",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "1978-07-08",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "liam.thomas4@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_142.eml > household_packet_142.zip",
+          "normalized_value": "LIAM THOMAS",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_143.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "3391 OAK LANE, DENVER, CO 80203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "752825",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "4418 HOME ADDRESS 3391 OAK LANE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "lucas.brooks5@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "LUCAS BROOKS",
+          "count": "2",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_143.eml > household_packet_143.zip",
+          "normalized_value": "6855557129",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_144.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_144.eml > household_packet_144.zip",
+          "normalized_value": "3428 CEDAR ST, COLUMBUS, OH 43215",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_144.eml > household_packet_144.zip",
+          "normalized_value": "403903",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_144.eml > household_packet_144.zip",
+          "normalized_value": "3400 HOME ADDRESS 3428 CEDAR ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_144.eml > household_packet_144.zip",
+          "normalized_value": "mason.johnson6@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_144.eml > household_packet_144.zip",
+          "normalized_value": "MASON JOHNSON",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_145.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_145.eml > household_packet_145.zip",
+          "normalized_value": "3465 RIVERVIEW AVENUE, PORTLAND, OR 97214",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_145.eml > household_packet_145.zip",
+          "normalized_value": "583531",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_145.eml > household_packet_145.zip",
+          "normalized_value": "8387 HOME ADDRESS 3465 RIVERVIEW AVENUE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_145.eml > household_packet_145.zip",
+          "normalized_value": "mia.ramirez7@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_145.eml > household_packet_145.zip",
+          "normalized_value": "MIA RAMIREZ",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_146.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "3502 PARK RD, MADISON, WI 53703",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "597599",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "6249 HOME ADDRESS 3502 PARK RD",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "noah.williams1@yahoo.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "NOAH WILLIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_146.eml > household_packet_146.zip",
+          "normalized_value": "NEAH WILIAMS",
+          "count": "1",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_147.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_147.eml > household_packet_147.zip",
+          "normalized_value": "3539 LAKEVIEW LANE, TAMPA, FL 33606",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_147.eml > household_packet_147.zip",
+          "normalized_value": "459816",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_147.eml > household_packet_147.zip",
+          "normalized_value": "7189 HOME ADDRESS 3539 LAKEVIEW LANE",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_147.eml > household_packet_147.zip",
+          "normalized_value": "olivia.davis2@outlook.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_147.eml > household_packet_147.zip",
+          "normalized_value": "OLIVIA DAVIS",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_148.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "3576 PINE ST, ATLANTA, GA 30309",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "250298",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "1241 HOME ADDRESS 3576 PINE ST",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "sophia.miller3@email.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "SOPHIA MILLER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "SOPHIA MILER",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_148.eml > household_packet_148.zip",
+          "normalized_value": "8835554414",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_149.eml",
+      "expected_count": 10,
+      "detected_count": 13,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "3613 WILLOW AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "149595",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "2657 HOME ADDRESS 3613 WILLOW AVENUE, CHARLOTTE, NC 28203",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "william.taylor4@protonmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "WILIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "WILLIAM TAYLOR",
+          "count": "1",
+          "risk_level": "LOW"
+        },
+        {
+          "pii_type": "PHONE",
+          "source_ref": "email_149.eml > household_packet_149.zip",
+          "normalized_value": "8038558708",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    },
+    {
+      "eml_filename": "email_150.eml",
+      "expected_count": 10,
+      "detected_count": 12,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 2,
+      "expected_missing": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_150.eml > household_packet_150.zip",
+          "normalized_value": "3650 HILLCREST RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "MRN",
+          "source_ref": "email_150.eml > household_packet_150.zip",
+          "normalized_value": "933304",
+          "count": "1",
+          "risk_level": "HIGH"
+        }
+      ],
+      "unexpected_findings": [
+        {
+          "pii_type": "ADDRESS",
+          "source_ref": "email_150.eml > household_packet_150.zip",
+          "normalized_value": "5456 HOME ADDRESS 3650 HILLCREST RD, PHOENIX, AZ 85016",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "EMAIL",
+          "source_ref": "email_150.eml > household_packet_150.zip",
+          "normalized_value": "aaliyah.anderson5@gmail.com",
+          "count": "1",
+          "risk_level": "MEDIUM"
+        },
+        {
+          "pii_type": "FULL_NAME",
+          "source_ref": "email_150.eml > household_packet_150.zip",
+          "normalized_value": "AALIYAH ANDERSON",
+          "count": "2",
+          "risk_level": "LOW"
+        }
+      ],
+      "ai_reviewed": false,
+      "ai_status": "not_run",
+      "ai_needs_human_review": false,
+      "ai_reason": ""
+    }
+  ],
+  "files_with_missed_findings": [
+    "email_028.eml",
+    "email_029.eml",
+    "email_030.eml",
+    "email_031.eml",
+    "email_032.eml",
+    "email_034.eml",
+    "email_035.eml",
+    "email_036.eml",
+    "email_037.eml",
+    "email_038.eml",
+    "email_039.eml",
+    "email_040.eml",
+    "email_041.eml",
+    "email_042.eml",
+    "email_043.eml",
+    "email_044.eml",
+    "email_046.eml",
+    "email_047.eml",
+    "email_048.eml",
+    "email_049.eml",
+    "email_050.eml",
+    "email_051.eml",
+    "email_052.eml",
+    "email_053.eml",
+    "email_054.eml",
+    "email_056.eml",
+    "email_057.eml",
+    "email_058.eml",
+    "email_059.eml",
+    "email_060.eml",
+    "email_061.eml",
+    "email_062.eml",
+    "email_063.eml",
+    "email_064.eml",
+    "email_065.eml",
+    "email_066.eml",
+    "email_068.eml",
+    "email_069.eml",
+    "email_070.eml",
+    "email_071.eml",
+    "email_072.eml",
+    "email_073.eml",
+    "email_074.eml",
+    "email_075.eml",
+    "email_076.eml",
+    "email_077.eml",
+    "email_078.eml",
+    "email_079.eml",
+    "email_080.eml",
+    "email_081.eml",
+    "email_082.eml",
+    "email_085.eml",
+    "email_086.eml",
+    "email_087.eml",
+    "email_090.eml",
+    "email_091.eml",
+    "email_092.eml",
+    "email_096.eml",
+    "email_097.eml",
+    "email_100.eml",
+    "email_101.eml",
+    "email_102.eml",
+    "email_105.eml",
+    "email_106.eml",
+    "email_107.eml",
+    "email_109.eml",
+    "email_112.eml",
+    "email_113.eml",
+    "email_116.eml",
+    "email_117.eml",
+    "email_120.eml",
+    "email_121.eml",
+    "email_124.eml",
+    "email_125.eml",
+    "email_128.eml",
+    "email_129.eml",
+    "email_132.eml",
+    "email_133.eml",
+    "email_134.eml",
+    "email_135.eml",
+    "email_136.eml",
+    "email_137.eml",
+    "email_138.eml",
+    "email_139.eml",
+    "email_140.eml",
+    "email_141.eml",
+    "email_142.eml",
+    "email_143.eml",
+    "email_144.eml",
+    "email_145.eml",
+    "email_146.eml",
+    "email_147.eml",
+    "email_148.eml",
+    "email_149.eml",
+    "email_150.eml"
+  ],
+  "files_with_false_positives": [
+    "email_028.eml",
+    "email_029.eml",
+    "email_030.eml",
+    "email_031.eml",
+    "email_032.eml",
+    "email_034.eml",
+    "email_036.eml",
+    "email_037.eml",
+    "email_038.eml",
+    "email_040.eml",
+    "email_041.eml",
+    "email_043.eml",
+    "email_044.eml",
+    "email_046.eml",
+    "email_047.eml",
+    "email_048.eml",
+    "email_049.eml",
+    "email_050.eml",
+    "email_052.eml",
+    "email_053.eml",
+    "email_054.eml",
+    "email_056.eml",
+    "email_057.eml",
+    "email_058.eml",
+    "email_059.eml",
+    "email_060.eml",
+    "email_061.eml",
+    "email_064.eml",
+    "email_065.eml",
+    "email_068.eml",
+    "email_069.eml",
+    "email_070.eml",
+    "email_071.eml",
+    "email_072.eml",
+    "email_073.eml",
+    "email_074.eml",
+    "email_076.eml",
+    "email_077.eml",
+    "email_080.eml",
+    "email_081.eml",
+    "email_082.eml",
+    "email_085.eml",
+    "email_087.eml",
+    "email_090.eml",
+    "email_091.eml",
+    "email_092.eml",
+    "email_096.eml",
+    "email_097.eml",
+    "email_100.eml",
+    "email_101.eml",
+    "email_102.eml",
+    "email_105.eml",
+    "email_106.eml",
+    "email_107.eml",
+    "email_109.eml",
+    "email_110.eml",
+    "email_111.eml",
+    "email_112.eml",
+    "email_113.eml",
+    "email_114.eml",
+    "email_115.eml",
+    "email_116.eml",
+    "email_117.eml",
+    "email_118.eml",
+    "email_119.eml",
+    "email_120.eml",
+    "email_121.eml",
+    "email_122.eml",
+    "email_123.eml",
+    "email_124.eml",
+    "email_125.eml",
+    "email_126.eml",
+    "email_127.eml",
+    "email_128.eml",
+    "email_130.eml",
+    "email_131.eml",
+    "email_132.eml",
+    "email_133.eml",
+    "email_134.eml",
+    "email_135.eml",
+    "email_136.eml",
+    "email_137.eml",
+    "email_138.eml",
+    "email_139.eml",
+    "email_140.eml",
+    "email_141.eml",
+    "email_142.eml",
+    "email_143.eml",
+    "email_144.eml",
+    "email_145.eml",
+    "email_146.eml",
+    "email_147.eml",
+    "email_148.eml",
+    "email_149.eml",
+    "email_150.eml"
+  ],
+  "ai_reviewed_files": [],
+  "ai_escalated_files": [],
+  "expected_human_review_files": [
+    "email_028.eml",
+    "email_029.eml",
+    "email_030.eml",
+    "email_031.eml",
+    "email_032.eml",
+    "email_033.eml",
+    "email_034.eml",
+    "email_035.eml",
+    "email_036.eml",
+    "email_037.eml",
+    "email_038.eml",
+    "email_040.eml",
+    "email_041.eml",
+    "email_042.eml",
+    "email_043.eml",
+    "email_044.eml",
+    "email_045.eml",
+    "email_046.eml",
+    "email_047.eml",
+    "email_048.eml",
+    "email_049.eml",
+    "email_050.eml",
+    "email_052.eml",
+    "email_053.eml",
+    "email_054.eml",
+    "email_056.eml",
+    "email_058.eml",
+    "email_059.eml",
+    "email_060.eml",
+    "email_062.eml",
+    "email_064.eml",
+    "email_065.eml",
+    "email_066.eml",
+    "email_068.eml",
+    "email_070.eml",
+    "email_071.eml",
+    "email_072.eml",
+    "email_074.eml",
+    "email_076.eml",
+    "email_077.eml",
+    "email_078.eml",
+    "email_080.eml",
+    "email_082.eml",
+    "email_083.eml",
+    "email_084.eml",
+    "email_085.eml",
+    "email_086.eml",
+    "email_087.eml",
+    "email_088.eml",
+    "email_089.eml",
+    "email_090.eml",
+    "email_091.eml",
+    "email_092.eml",
+    "email_093.eml",
+    "email_094.eml",
+    "email_095.eml",
+    "email_096.eml",
+    "email_097.eml",
+    "email_098.eml",
+    "email_099.eml",
+    "email_100.eml",
+    "email_101.eml",
+    "email_102.eml",
+    "email_103.eml",
+    "email_104.eml",
+    "email_105.eml",
+    "email_106.eml",
+    "email_107.eml",
+    "email_108.eml",
+    "email_109.eml",
+    "email_110.eml",
+    "email_111.eml",
+    "email_112.eml",
+    "email_113.eml",
+    "email_114.eml",
+    "email_115.eml",
+    "email_116.eml",
+    "email_117.eml",
+    "email_118.eml",
+    "email_119.eml",
+    "email_120.eml",
+    "email_121.eml",
+    "email_122.eml",
+    "email_123.eml",
+    "email_124.eml",
+    "email_125.eml",
+    "email_126.eml",
+    "email_127.eml",
+    "email_128.eml",
+    "email_129.eml",
+    "email_130.eml",
+    "email_131.eml",
+    "email_132.eml",
+    "email_133.eml",
+    "email_134.eml",
+    "email_135.eml",
+    "email_136.eml",
+    "email_137.eml",
+    "email_138.eml",
+    "email_139.eml",
+    "email_140.eml",
+    "email_141.eml",
+    "email_142.eml",
+    "email_143.eml",
+    "email_144.eml",
+    "email_145.eml",
+    "email_146.eml",
+    "email_147.eml",
+    "email_148.eml",
+    "email_149.eml",
+    "email_150.eml"
+  ],
+  "ai_caught_expected_review_files": [],
+  "end_to_end": {
+    "report_job_id": "benchmark-e2e-2dc1f053",
+    "report_file_type": {
+      "expected": 580,
+      "detected": 456,
+      "true_positive": 453,
+      "false_positive": 3,
+      "false_negative": 127,
+      "precision": 0.9934,
+      "recall": 0.781
+    },
+    "report_owner_file_type": {
+      "expected": 580,
+      "detected": 466,
+      "true_positive": 401,
+      "false_positive": 65,
+      "false_negative": 179,
+      "precision": 0.8605,
+      "recall": 0.6914
+    },
+    "review_metrics": {
+      "expected_review_files": 111,
+      "flagged_review_files": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 111,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "files_with_followup_matches": 0
+  }
+}

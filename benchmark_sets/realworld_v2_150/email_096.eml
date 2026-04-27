@@ -1,0 +1,45 @@
+Subject: Record Verification Required
+From: notices@healthsystem.org
+To: noah.williams@healthsystem.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5509384206376723638=="
+
+--===============5509384206376723638==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Case preparation team,
+
+Attached is the case packet for Noah Williams.
+The packet includes one customer record and one operations note.
+Internal ticket: ORD-2847293
+Support mailbox: helpdesk@company.com
+
+--===============5509384206376723638==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="review_packet_096.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIAA8zllyclShqeAAAAHwAAAAOAAAAcmVjb3JkXzA5Ni5jc3YNwr0KwjAUBtC90Hf4
+6KRwxfQniY4VEReroKBrpFcSTBpo0vfXwzkt3mMwgeloMiN+cHBztnSJb+cZNxsnpnMMjH4cZ06p
+LIZoLJ7Oe2dCIqG2//VeN7Rq63YNKeWmU1pQ1SnZ4Gq+uGdCv6TsJsLjBb3ToqvK4gdQSwMEFAAA
+AAgADzOWXAPRQ/+8AAAA4QAAABAAAABvcHNfbm90ZV8wOTYudHh0FU7LasMwELzrK/bYHixkO44d
+nwIplEIgJe4PKPImEZa1Yi3l8feVT8M8mSHNs41wxJt28M2UAtgFFvSj9TfQHigg62jJZz+FUUeE
+KzHEO2ZqaF5jT+JpiYx6luLPmgkjMF6R0Rvs4XT+Kqpu01a7WgwpBOII1l/o1cMdXRhxmfZ5KGj/
+lhnFQTt30WYCZ32uf3RKfULTNIUqlRJnfFh8wnqkh0pV20K1RVmKgRIbhJ/fVa3lbiu7Tra1+AdQ
+SwECFAMUAAAACAAPM5ZcnJUoangAAAB8AAAADgAAAAAAAAAAAAAAgAEAAAAAcmVjb3JkXzA5Ni5j
+c3ZQSwECFAMUAAAACAAPM5ZcA9FD/7wAAADhAAAAEAAAAAAAAAAAAAAAgAGkAAAAb3BzX25vdGVf
+MDk2LnR4dFBLBQYAAAAAAgACAHoAAACOAQAAAAA=
+
+--===============5509384206376723638==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="operations_496.csv"
+MIME-Version: 1.0
+
+dGlja2V0LG93bmVyLGNvbnRhY3QscmV2aWV3X2RhdGUsc291cmNlX2lwDQpSRVEtOTkyODE0LFN1
+bW1pdCBMZWdhbCBHcm91cCxoZWxwZGVza0Bjb21wYW55LmNvbSwyMDI2LTAyLTE1LDIwMy40Ni4x
+MC4yNA0K
+
+--===============5509384206376723638==--

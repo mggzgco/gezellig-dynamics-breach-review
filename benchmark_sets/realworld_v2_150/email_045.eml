@@ -1,0 +1,18 @@
+Subject: Suspicious Login Validation
+From: notices@company.com
+To: mia.ramirez@company.com
+Content-Type: multipart/alternative;
+ boundary="===============3910294453307310191=="
+
+--===============3910294453307310191==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Security operations,</p><p>We detected a portal sign-in associ=
+ated with mia.ramirez7@gmail.com.</p><p>Security mailbox: support@servicehub.=
+com</p><p>Case reference: FX987654321</p><p>User profile snapshot:</p><p>Full=
+ Name: Mia Ramirez</p><p>Login IP Address: 161.42.182.175</p><p>Personal Emai=
+l: mia.ramirez7@gmail.com</p><p>Mobile Phone: (713) 555-3299</p></body></html>
+
+--===============3910294453307310191==--
