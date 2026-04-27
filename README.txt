@@ -5,6 +5,10 @@
 This repository is prepared for push to a new GitHub repository and for
 technical customer handoff.
 
+Customer-facing quick guide:
+
+- `CUSTOMER_SETUP.md`
+
 What the user still needs on the machine before the app can fully work:
 
 - Python 3
