@@ -185,5 +185,4 @@ Once the workspace unlocks:
 See:
 
 - [README.md](README.md)
-- [README.txt](README.txt)
-- [ARCHITECTURE.md](ARCHITECTURE.md)
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)

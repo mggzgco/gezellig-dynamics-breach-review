@@ -139,8 +139,8 @@ venv/bin/python scripts/run_heavy_tests.py
 - `tests/`: fast and heavy test suites
 - `benchmark_sets/`: synthetic benchmark corpora
 - `CUSTOMER_SETUP.md`: short customer onboarding and troubleshooting guide
-- `ARCHITECTURE.md`: technical structure overview
-- `HANDOFF.md`: implementation/handoff notes
+- `docs/ARCHITECTURE.md`: technical structure overview
+- `docs/internal/HANDOFF.md`: internal implementation/handoff notes
 
 ## Shipping note
 
